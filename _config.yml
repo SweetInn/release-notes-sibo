@@ -1,6 +1,9 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: SIBO Release Notes
+description: SIBO Release Notes
 theme: just-the-docs
+
+logo: "/assets/images/logo-sibo-back-office.png"
+favicon_ico: "/assets/images/favicon.ico"
 
 url: https://just-the-docs.github.io
 

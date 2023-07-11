@@ -1,5 +1,5 @@
 ---
-title: SIBO Realease Notes
+title: SIBO Release Notes
 layout: home
 ---
 
