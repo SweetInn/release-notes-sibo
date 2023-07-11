@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Unified Dashboard
-parent: version41
-grand_parent: versions
+parent: Version 41
+grand_parent: Versions
 nav_order: 3
 ---
 
