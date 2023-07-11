@@ -8,7 +8,9 @@ nav_order: 7
 
 # Operations Platform
 
-* Auto-create Inspection Tasks purple {: .label .label-purple }
+* Auto-create Inspection Tasks 
+purple
+{: .label .label-purple }
 * Auto-create Report on Bad NPS
 * Other Enhancements
   * Reports Thumbnails
