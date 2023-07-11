@@ -12,6 +12,6 @@ nav_order: 3
 
 * Chatbot - will be added soon
 * Unified-Inbox Live Dashboard
-[![Watch the video](https://drive.google.com/file/d/1cVJJJ6xPKlTYa5HgloF3ADKRVbFe5x6P/view?usp=drive_link)](https://drive.google.com/file/d/1y-61ytorN8eOsbBAEqQrmrSByDa8OHIO/view?usp=sharing)
+[![Watch the video](https://drive.google.com/file/d/1cVJJJ6xPKlTYa5HgloF3ADKRVbFe5x6P/view?usp=sharing)](https://drive.google.com/file/d/1y-61ytorN8eOsbBAEqQrmrSByDa8OHIO/view?t=35s)
 
 * Shifts&Breaks Management for communication-center agents.
