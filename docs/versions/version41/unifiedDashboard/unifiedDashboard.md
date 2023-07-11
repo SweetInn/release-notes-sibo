@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Unified Dashboard
-parent: Version 41
-nav_order: 4
+parent: version41
 ---
 
 # Unified-Inbox Live Dashboard
