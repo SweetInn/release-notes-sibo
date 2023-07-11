@@ -5,7 +5,7 @@ theme: just-the-docs
 logo: "/assets/images/logo-sibo-back-office.png"
 favicon_ico: "/assets/images/favicon.ico"
 
-url: https://just-the-docs.github.io
+url: https://sweetinn.github.io/release-notes-sibo
 
 aux_links:
   Book A Demo: https://sibotech.io/book-a-demo
