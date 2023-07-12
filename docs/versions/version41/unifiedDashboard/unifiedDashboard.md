@@ -6,6 +6,28 @@ grand_parent: Versions
 nav_order: 3
 ---
 
+<style>
+.responsive-video {
+    position: relative;
+    padding-bottom: 56.25%; /* Aspect ratio for 16:9 videos */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+
 # Unified-Inbox Live Dashboard <span class="label label-purple">NEW</span>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-HVVNJyv0kE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="responsive-video">
+    <iframe src="https://www.youtube.com/embed/-HVVNJyv0kE" frameborder="0" allowfullscreen></iframe>
+</div>

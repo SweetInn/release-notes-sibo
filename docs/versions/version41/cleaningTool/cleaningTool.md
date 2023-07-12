@@ -6,6 +6,26 @@ grand_parent: Versions
 nav_order: 8
 ---
 
+<style>
+.responsive-video {
+    position: relative;
+    padding-bottom: 56.25%; /* Aspect ratio for 16:9 videos */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+
 # Cleaning Tool
 
 * Early Check-In unconfirmed indication <span class="label label-purple">NEW</span>
@@ -16,4 +36,6 @@ nav_order: 8
 * Alerts - Overdue or Unfinished Cleanings for Today <span class="label label-purple">NEW</span>
 * Alerts - Unassigned Cleanings for Tomorrow <span class="label label-purple">NEW</span>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vXrsFB5uLuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="responsive-video">
+    <iframe src="https://www.youtube.com/embed/vXrsFB5uLuE" frameborder="0" allowfullscreen></iframe>
+</div>
