@@ -11,7 +11,13 @@ nav_order: 9
 * Chatbot - Associate a Booking to Conversation <span class="label label-purple">NEW</span>
 * Chatbot - Extension <span class="label label-purple">NEW</span>
 * Chatbot - Late Check Out <span class="label label-purple">NEW</span>
-* 
+* Chatbot - Check-Out Drop-Off <span class="label label-yellow">Coming soon</span>
+* Chatbot - Property Appliances Guides <span class="label label-yellow">Coming soon</span>
+* Chatbot - Report an Issue <span class="label label-yellow">Coming soon</span>
+* Chatbot - Digital Keys <span class="label label-yellow">Coming soon</span>
+* Chatbot - Check-Out Details <span class="label label-yellow">Coming soon</span>
+
+
 
 --- 
 <!-- {: .highlight }
