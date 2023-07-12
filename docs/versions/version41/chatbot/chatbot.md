@@ -6,6 +6,26 @@ grand_parent: Versions
 nav_order: 9
 ---
 
+<style>
+.responsive-video {
+    position: relative;
+    padding-bottom: 56.25%; /* Aspect ratio for 16:9 videos */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+
 # Chatbot
 
 * Chatbot - Associate a Booking to Conversation <span class="label label-purple">NEW</span>
@@ -26,8 +46,8 @@ Coming Soon... -->
 
 ## Chatbot - Associate a Booking to Conversation
 
-<div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/40SExHa9EnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="responsive-video">
+    <iframe src="https://www.youtube.com/embed/40SExHa9EnM" frameborder="0" allowfullscreen></iframe>
 </div>
 ---
 
@@ -35,8 +55,8 @@ Coming Soon... -->
 
 Chatbot - Extension
 
-<div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/C5YkmpUdJBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="responsive-video">
+    <iframe src="https://www.youtube.com/embed/C5YkmpUdJBY" frameborder="0" allowfullscreen></iframe>
 </div>
 ---
 
@@ -44,7 +64,7 @@ Chatbot - Extension
 
 Chatbot - Late Check Out
 
-<div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/gtHjI4q5MsM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="responsive-video">
+    <iframe src="https://www.youtube.com/embed/gtHjI4q5MsM" frameborder="0" allowfullscreen></iframe>
 </div>
 ---
