@@ -16,6 +16,3 @@ Join us on the journey of innovation as we continue to shape the future of the h
 {: .fs-6 .fw-300 }
 
 ---
-## About
-
-SIBO Release Notes is &copy; 2023-{{ "now" | date: "%Y" }} by [SIBOTECH](https://sibotech.io)
