@@ -10,6 +10,8 @@ url: https://sweetinn.github.io/release-notes-sibo
 aux_links:
   Book A Demo: https://sibotech.io/book-a-demo
 
+ga_tracking: G-J6D7QNJQBW
+ga_tracking_anonymize_ip: true
 
 color_scheme: sibo
 
