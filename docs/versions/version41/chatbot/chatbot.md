@@ -62,7 +62,7 @@ Chatbot - Extension
 
 
 
-Chatbot - Check-Out Drop-Off
+Chatbot - Late Check Out
 
 <div class="responsive-video">
     <iframe src="https://www.youtube.com/embed/gtHjI4q5MsM" frameborder="0" allowfullscreen></iframe>
@@ -71,9 +71,9 @@ Chatbot - Check-Out Drop-Off
 
 
 
-Chatbot - Late Check Out
+Chatbot - Check-Out Drop-Off
 
 <div class="responsive-video">
-    <iframe src="https://www.youtube.com/embed/pPZ_dZNry8w" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/5M7pguKUuGo" frameborder="0" allowfullscreen></iframe>
 </div>
 ---
