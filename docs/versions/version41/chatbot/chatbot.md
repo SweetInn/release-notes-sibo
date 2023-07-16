@@ -32,7 +32,7 @@ nav_order: 9
 * Chatbot - Extension <span class="label label-purple">NEW</span>
 * Chatbot - Late Check Out <span class="label label-purple">NEW</span>
 * Chatbot - Check-Out Drop-Off <span class="label label-purple">NEW</span>
-* Chatbot - Property Appliances Guides <span class="label label-yellow">Coming soon</span>
+* Chatbot - Appliances Guides <span class="label label-purple">NEW</span>
 * Chatbot - Report an Issue <span class="label label-yellow">Coming soon</span>
 * Chatbot - Digital Keys <span class="label label-yellow">Coming soon</span>
 * Chatbot - Check-Out Details <span class="label label-yellow">Coming soon</span>
@@ -77,3 +77,11 @@ Chatbot - Check-Out Drop-Off
     <iframe src="https://www.youtube.com/embed/5M7pguKUuGo" frameborder="0" allowfullscreen></iframe>
 </div>
 ---
+
+
+
+Chatbot - Appliances Guides
+
+<div class="responsive-video">
+    <iframe src="https://www.youtube.com/embed/DtHbtG8_8bM" frameborder="0" allowfullscreen></iframe>
+</div>
