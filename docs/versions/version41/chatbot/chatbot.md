@@ -35,7 +35,7 @@ nav_order: 9
 * Chatbot - Appliances Guides <span class="label label-purple">NEW</span>
 * Chatbot - Report an Issue <span class="label label-purple">New</span>
 * Chatbot - Digital Keys <span class="label label-purple">NEW</span>
-* Chatbot - Check-Out Details <span class="label label-yellow">COMING SOON</span>
+* Chatbot - Check-Out Details <span class="label label-purple">NEW</span>
 
 
 
@@ -102,4 +102,13 @@ Chatbot - Digital Keys
 
 <div class="responsive-video">
     <iframe src="https://www.youtube.com/embed/hPARYm-PQIo" frameborder="0" allowfullscreen></iframe>
+</div>
+---
+
+
+
+Chatbot - Check-Out Details
+
+<div class="responsive-video">
+    <iframe src="https://www.youtube.com/embed/2dHLyomBZRw" frameborder="0" allowfullscreen></iframe>
 </div>
