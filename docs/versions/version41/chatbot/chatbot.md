@@ -49,9 +49,6 @@ Coming Soon... -->
 <div class="responsive-video">
     <iframe src="https://www.youtube.com/embed/40SExHa9EnM" frameborder="0" allowfullscreen></iframe>
 </div>
-<script src="https://apis.google.com/js/platform.js"></script>
-
-<div class="g-ytsubscribe" data-channelid="UCGRgzp0mDWLnRmlH7UrN24w" data-layout="default" data-count="hidden"></div>
 ---
 
 
