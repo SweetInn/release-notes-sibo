@@ -34,6 +34,7 @@ Read more about [markdown](https://www.markdownguide.org/cheat-sheet/)
 
 For example to achieve the current House Rules that shown by default on the website,
 
+![Default house Rules](../../../../assets/images/version43/houseRulesManagerCms/CMS-Hose_Rules_Manager.png)
 
 You can use the following snippet
 
