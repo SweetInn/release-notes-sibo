@@ -27,7 +27,7 @@ nav_order: 1
 </style>
 
 
-# Deposit Capture Flow <span class="label label-yellow">SOON</span>
+# Deposit Capture Flow <span class="label label-purple">NEW</span>
 
 
 

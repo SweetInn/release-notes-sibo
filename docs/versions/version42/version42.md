@@ -11,8 +11,8 @@ nav_order: 2.6
 
 ### What's New?
 
-#### Operations Platform
-- Introduced a fresh deposit capture procedure. [See more...](./depositFlow/depositFlow.html)
+#### Operations Platform <span class="label label-purple">NEW</span>
+- Introduced a fresh deposit capture procedure. [Watch Me!](./depositFlow/depositFlow.html)
 - Now featuring a maintenance task summary to gather details about tasks completion.
 
 #### Unified Inbox
