@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 title: CMS - House Rules Manager
 parent: Version 43
@@ -81,4 +81,4 @@ We wish to remind you that you are solely responsible to make sure that you and 
 
 <div class="responsive-video">
     <iframe src="https://www.youtube.com/embed/missing_link" frameborder="0" allowfullscreen></iframe>
-</div>
+</div> -->
