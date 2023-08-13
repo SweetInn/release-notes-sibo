@@ -30,7 +30,7 @@ nav_order: 2.6
 - Guests now receive notifications 
 
 #### <u>Scalability</u>
-- Unlimited number of accounts per user.
+- Enabling an unlimited number of accounts per user.
 
 #### <u>Website</u>
 - Online Check-In - The "Set Arrival Time" option is concealed if check-in is within 24 hours. An advisory note is displayed instead.
