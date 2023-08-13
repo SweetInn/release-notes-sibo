@@ -36,4 +36,4 @@ nav_order: 1
 </div>
 
 {: .note }
-Permission for capture in the user's personal preferences --> Booking - Charge deposit
+Permission to capture a deposit are located in the user's personal preferences --> Booking - Charge deposit
