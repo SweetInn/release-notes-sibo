@@ -13,8 +13,8 @@ nav_order: 2.6
 
 #### <u>Operations Platform</u>
 - [Introduced a fresh deposit capture procedure.](./depositFlow/depositFlow.html)
-- [Now featuring a maintenance task summary to gather details about tasks completion.](./depositFlow/taskSummary.html)
-- Task reports now display both descriptions and associated images.
+- [Now featuring a maintenance task summary to gather details about tasks completion.](./taskSummary/taskSummary.html)
+- [Task reports now display both descriptions and associated images.](./taskExtendedDetails/taskExtendedDetails.html)
 
 #### <u>Unified Inbox</u>
 - Whatsapp chatbot now sends messages with button options, replacing the old numbered lists.
