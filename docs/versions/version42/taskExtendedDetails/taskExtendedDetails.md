@@ -33,7 +33,8 @@ nav_order: 1
 Extended task details are including the report it was initiated from.
 
 ### Desktop -
-(../../../../assets/images/version42/taskExtendedDetailsDesktop.png)
+![](../../../../assets/images/version42/taskExtendedDetailsDesktop.png)
+
 
 ### Mobile -
-(../../../../assets/images/version42/taskExtendedDetailsMobile.png)
+![](../../../../assets/images/version42/taskExtendedDetailsDesktop.png)
