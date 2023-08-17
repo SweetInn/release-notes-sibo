@@ -12,8 +12,8 @@ nav_order: 2.6
 ### What's New?
 
 #### <u>Operations Platform</u>
-- Introduced a fresh deposit capture procedure. <span class="fs-1">[Watch Me!](./depositFlow/depositFlow.html){: .btn .btn-green }</span>
-- Now featuring a maintenance task summary to gather details about tasks completion.
+- [Introduced a fresh deposit capture procedure.](./depositFlow/depositFlow.html)
+- [Now featuring a maintenance task summary to gather details about tasks completion.](./depositFlow/taskSummary.html)
 - Task reports now display both descriptions and associated images.
 
 #### <u>Unified Inbox</u>
