@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Deposit Capture Flow
+title: Task Summary
 parent: Version 42
 grand_parent: Versions
 nav_order: 1
@@ -27,13 +27,10 @@ nav_order: 1
 </style>
 
 
-# Deposit Capture Flow <span class="label label-purple">NEW</span>
+# Task Summary <span class="label label-purple">NEW</span>
 
 
 
 <div class="responsive-video">
-    <iframe src="https://www.youtube.com/embed/3m-mzA2SVtU" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/btXwm8SqqiI" frameborder="0" allowfullscreen></iframe>
 </div>
-
-{: .note }
-Permission to capture a deposit are located in the user's personal preferences --> Booking - Charge deposit
