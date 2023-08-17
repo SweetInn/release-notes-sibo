@@ -17,7 +17,7 @@ nav_order: 2.6
 - [Task reports now display both descriptions and associated images.](./taskExtendedDetails/taskExtendedDetails.html)
 
 #### <u>Unified Inbox</u>
-- Whatsapp chatbot now sends messages with button options, replacing the old numbered lists.
+- [Whatsapp templates - The chatbot now sends messages with button options, replacing the old numbered lists.](./whatsappTemplates/whatsappTemplates.html)
 - Chatbot now identifies booking IDs even within sentences.
 
 #### <u>Services</u>
