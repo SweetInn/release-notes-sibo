@@ -33,10 +33,10 @@ nav_order: 1
 Extended task details are including the report it was initiated from.
 
 ### Short menu example-
-![](../../../../assets/images/version42/whatsappTemplates1.png)
+<img src="../../../../assets/images/version42/whatsappTemplates1.png" width= "300">
 ---
-![](../../../../assets/images/version42/whatsappTemplates2.png)
+<img src="../../../../assets/images/version42/whatsappTemplates2.png" width= "300">
 
 
 ### Long menu example -
-![](../../../../assets/images/version42/whatsappTemplates3.png)
+<img src="../../../../assets/images/version42/whatsappTemplates3.png" width= "300">
