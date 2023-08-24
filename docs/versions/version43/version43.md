@@ -18,7 +18,7 @@ nav_order: 2.7
 - All WhatsApp chatbot menus are now appear as lists and buttons for easy use.
 - Chatbot is now available for all properties!
 - Until Property guide book is ready, the chat is transferred to an agent with inquiry info.
-- Meaasges easy loading. Loading only 25 each time with load more button.
+- Messages easy loading. Loading only 25 each time with load more button.
 
 #### <u>Reports</u>
 - New sorting options: By Property Name and By Task Assignee.
