@@ -14,10 +14,18 @@ nav_order: 2.7
 #### <u>Multi-Calendar</u>
 - Introduced lazy loading for faster page loading.
 
-#### <u>General</u>
-- Introduced property internal name support across all SIBO pages.<br/>Designed for teams who communicate using internal property names.
+#### <u>Unified-Inbox</u>
+- All WhatsApp chatbot menus are now appear as lists and buttons for easy use.
+- Chatbot is now available for all properties!
+- Until Property guide book is ready, the chat is transferred to an agent with inquiry info.
+- Meaasges easy loading. Loading only 25 each time with load more button.
+
+#### <u>Reports</u>
+- New sorting options: By Property Name and By Task Assignee.
+- Integrated a comment counter to preview available comments before accessing the comment sidebar.
 
 #### <u>Services</u>
+<b>New approach to order services for guests.<b>
 - New Transportation Service Form
   - Upon usage, the system selects the best-fit transport service based on the questionnaire.
   - Automatically generates a payment link.
@@ -30,23 +38,30 @@ nav_order: 2.7
   - For Late Check-Out, the ETD sets to 06:00 AM
   - For Late Check-Out, the Cleaning task moves to next date 08:00 AM
 
-#### <u>Unified-Inbox</u>
-- Enabled transfer of chatbot conversations to agents with added information.
-- Expanded the use of WhatsApp buttoned templates in chatbot menus beyond just the booking query steps.
-
 #### <u>House Rules</u>
 - Launched a customized House Rules manager.
 - Added a House Rules override mechanism on the website for users opting for customized rules.
 
-#### <u>Reports</u>
-- New sorting options: By Property Name and By Task Assignee.
-- Integrated a comment counter to preview available comments before accessing the comment sidebar.
+#### <u>General (Made for Sibotech)</u>
+- Introduced property internal name support across all SIBO pages.<br/>Designed for teams who communicate using internal property names.
+
 
 ### Bug Fixes
 
+#### <u>Tasks</u>
 - Resolved issue causing the Tasks page to crash when clicking the “Clear Filter” button.
+
+#### <u>Reports</u>
+- Addressed the display of system-used report categories for user selection
+
+#### <u>Unified-Inbox</u>
 - Fixed the broken view of Unified-inbox Facebook conversations on mobile.
-- Addressed the display of system-used report categories for user selection.
+
+#### <u>Cleaning</u>
 - Rectified the non-display issue of property lists in the cleaning tool company’s form.
+
+#### <u>Property</u>
 - Fixed a bug causing the description tab to crash when editing certain properties.
+
+#### <u>SIBO Alerts</u>
 - Corrected the incorrect sorting of SIBO alerts.
