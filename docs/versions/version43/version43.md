@@ -34,8 +34,8 @@ nav_order: 2.7
 - New Early Check-In / Late Check-Out Service Form
   - System creates a temporary block and generates a payment link upon usage.
   - Upon payment, the temporary block becomes permanent. Additionally, ETA/ETD and DKs time limits are updated.
-  - For Early Check-In, the ETA sets to 23:00 PM
-  - For Late Check-Out, the ETD sets to 06:00 AM
+  - For Early Check-In, the ETA sets to 06:00 AM 
+  - For Late Check-Out, the ETD sets to 23:00 PM
   - For Late Check-Out, the Cleaning task moves to next date 08:00 AM
 
 #### <u>House Rules</u>
