@@ -39,7 +39,7 @@ For example to achieve the current House Rules that shown by default on the webs
 You can use the following snippet
 
 ```
-# **<center>Agreement Rules</center>**
+# Agreement Rules**
 
 Please be aware that non-compliance to the rules here described below may result in being asked to leave the apartment without prior notice and with no compensation and can lead to the debit of the entire deposit amount.
 
@@ -63,18 +63,18 @@ The apartment should be returned in the same conditions as it was found upon che
 **Note**:
 in case the above policies are not respected, Sweet Inn reserves the right to set a fine up to the total amount of the deposit. In cases exceeding the deposit amount, Sweet Inn maintains the right to pursue further charges in any legal way available.
 
-# **<center>Other</center>**
+# Other
 1. <u> **Security and safety**</u>: You are responsible for your own and your guests' safety and security. Please read and comply with the safety rules and regulations provided to you and inform us immediately of any issue inside or in the apartment's premises which you believe might pose a risk to yourself or the apartment.
 2. **<u>Reporting damages</u>**: You must notify us in writing of any damage that occurs to the apartment or its contents, even if you believe the damage isn't your responsibility.
 3. **<u>Additional instructions</u>**: Sweet Inn may provide you with further instructions applicable to your stay. Please follow those instructions and make sure your guests follow them as well.
-4. **<u>Invoice</u>**: If you require an invoice with specific details, please email us at [qa-mailer+sweetinnContactEmail@sweetinn.com ](mailto:qa-mailer+sweetinnContactEmail@sweetinn.com ) efore your check-in.
+4. **<u>Invoice</u>**: If you require an invoice with specific details, please email us at [qa-mailer+sweetinnContactEmail@sweetinn.com ](mailto:qa-mailer+sweetinnContactEmail@sweetinn.com ) before your check-in.
 5. **<u>Physical Keys</u>**: In case the keys are not returned 250 EUR will be debited from your deposit.
 6. **<u>Check-out</u>**: Check-out is possible until 11:00am. A late check out without prior notice and authorization can be charged up to the total amount of the deposit.
 7. **<u>Services</u>**: Sweet Inn reserves the right to collect unpaid charges through the security deposit, if those are remaining upon check-out.
 
 We wish to remind you that you are solely responsible to make sure that you and your guests are aware of and comply with the house rules.
 
-**<center>We wish you a greate stay!</center>**
+## We wish you a grate stay!
 ```
 
 
