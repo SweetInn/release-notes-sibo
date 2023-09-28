@@ -11,17 +11,17 @@ nav_order: 2.9
 
 ### Updates on Airbnb Email Alias Changes
 
-As of September 30, 2023, Airbnb has announced that new reservations will no longer come with an alias email address.
-![Airbnb email alias deprecation notice](../../../../assets/images/version45a/AirbnbDeprecationEmailAlias.png)
+As of September 30, 2023, Airbnb has announced that new reservations will no longer come with an alias email address.[Read More](https://www.airbnb.ie/resources/hosting-homes/a/an-update-for-hosts-who-use-the-email-alias-feature-195?locale=en&_set_bev_on_new_domain=1641815811_MTI5ZGE1NTg5NTA5)
+![Airbnb email alias deprecation notice](../../../assets/images/version45a/AirbnbDeprecationEmailAlias.png)
 
 Following those changes, we’ve acted as so:
 
 #### <u>Online Check-in</u>
 - For Airbnb guests: The verification code for the initial step of the Online Check-In is now dispatched via Airbnb messaging.
 
-![Airbnb email alias deprecation notice](../../../../assets/images/version45a/AirbnbVerificationFromOCI.png)
+![Airbnb email alias deprecation notice](../../../assets/images/version45a/AirbnbVerificationFromOCI.jpg)
 
-![Airbnb email alias deprecation notice](../../../../assets/images/version45a/AirbnbVerificationCodeMessage.png)
+![Airbnb email alias deprecation notice](../../../assets/images/version45a/AirbnbVerificationCodeMessage.png)
 
 - For guests not booked through Airbnb: The process remains unchanged, with the verification code sent via email. 
 
