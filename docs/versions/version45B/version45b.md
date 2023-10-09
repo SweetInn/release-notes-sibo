@@ -31,6 +31,8 @@ nav_order: 2.91
 -  New - View reservations directly on the multi-calendar page by clicking on the dates.
 -  Improvement - Early availability of the Digital Keys link button for B2B reservations, enhancing accessibility.
 
+    Please note that the PIN-codes will remain with the same creation time logic. However, you will be able to provide the link to the Agency from the moment of the booking creation.
+
 #### <u>Multi-Calendar</u>
 * Improvement - Distinct color differentiation for paid early check-in and late check-out blocks.
 * Bugfix - Resolved an issue ensuring accurate availability display when navigating through different months.
