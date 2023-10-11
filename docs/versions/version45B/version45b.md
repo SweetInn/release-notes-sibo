@@ -20,12 +20,13 @@ nav_order: 2.91
   - Upon completion, ascertain if guests have accessed the apartment, update their status to checked-in, and transition to the in-stay interaction menu.
 - Bugfix - Rectified an issue where certain chatbot messages were erroneously logged as system messages.
 
-#### <u>Reports & Tasks</u>
+#### <u>OPS Platform</u>
 - New - Report Subscription - Subscribe and manage subscriptions to reports, ensuring real-time updates via email on new report creation, comments, and status changes.
 - New - Upload videos to new or existing reports, enriching the information shared.
 - New - Integrated date selection with apartment availability, when creating a maintenance task.
 - New - Integrated visual workload indicators next to assignees for better task allocation, when creating a maintenance task.
 - Improvement - Direct navigation to task details from a report's task link, streamlining the process.
+- Improvement - Limiting the purchase time of Paid Late Check-Out service until 02 PM (customization per city will be added later)
 
 #### <u>Booking Details</u>
 -  New - View reservations directly on the multi-calendar page by clicking on the dates.
