@@ -18,6 +18,7 @@ nav_order: 2.91
 - New - Check-in Day Interaction
   - Reminder for guests to complete their Online-Check-In, with a direct link.
   - Upon completion, ascertain if guests have accessed the apartment, update their status to checked-in, and transition to the in-stay interaction menu.
+  - In case the guest haven't accessed the apartment, present enter the apartment chatbot.
 - Bugfix - Rectified an issue where certain chatbot messages were erroneously logged as system messages.
 
 #### <u>OPS Platform</u>
@@ -26,7 +27,7 @@ nav_order: 2.91
 - New - Integrated date selection with apartment availability, when creating a maintenance task.
 - New - Integrated visual workload indicators next to assignees for better task allocation, when creating a maintenance task.
 - Improvement - Direct navigation to task details from a report's task link, streamlining the process.
-- Improvement - Limiting the purchase time of Paid Late Check-Out service until 02 PM (customization per city will be added later)
+- Improvement - Limiting the purchase time of Paid Late Check-Out service until 2PM a day before the check-out (customization per city will be added later)
 
 #### <u>Booking Details</u>
 -  New - View reservations directly on the multi-calendar page by clicking on the dates.
