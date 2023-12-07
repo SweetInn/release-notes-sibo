@@ -15,7 +15,7 @@ nav_order: 3
 - New alerts have been introduced on the dashboard to indicate low battery and offline status for intercoms and buzzer locks.
 
 #### <u>User Profiles</u>
-- SIBO users can now access a specific set of properties. This feature is especially beneficial for partners who manage separate teams for each building in their city</br>
+- SIBO users can now access a specific set of properties. This feature is especially beneficial for partners who manage separate teams for each building in their city
 (This feature is limited. allowed to use only for user with single city. Supports the multi-calendar, dashboard, and cleaning tool pages.)
 
 #### <u>Unified-Inbox Improvements</u>
@@ -26,12 +26,12 @@ nav_order: 3
 
 #### <u>Guest Experience</u>
 - Multilingual support added to our chatbot, including English, French, Spanish, Italian, Portuguese, Russian, and Hebrew.
-- Smart language selection in the chatbot to recommend the most suitable language to guests.</br>
+- Smart language selection in the chatbot to recommend the most suitable language to guests.
 (The guest may choose any language given our suggestion does not match their needs)
 - Resolved a bug in the chatbot related to transportation services for locations with a single pickup point.
 
 #### <u>Operations platform</u>
-- Implemented dynamic pricing for housekeeping services, with an initial markup of 15%.</br>
+- Implemented dynamic pricing for housekeeping services, with an initial markup of 15%.
 (In future versions you will be able to adjust the markup to your needs per property) 
 - Introduced a new form for ordering housekeeping services.
 - Resolved various issues related to SIBO alerts, journey management, and report generation inaccuracies.
