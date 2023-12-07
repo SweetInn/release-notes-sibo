@@ -21,6 +21,7 @@ nav_order: 3
 #### <u>Unified-Inbox</u>
 - Enhanced language management options for guest conversations.
 - Introduction of a "closed" tab and a "close conversation" action to streamline conversation management.
+- Introduction of a “chatbot” tab, to be able to truck conversations currently handled by the chatbot.
 - Ensured English display in Unified-Inbox, irrespective of the guest's language.
 
 #### <u>Operations platform</u>
