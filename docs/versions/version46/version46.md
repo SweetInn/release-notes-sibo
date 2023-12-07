@@ -37,8 +37,7 @@ nav_order: 3
 - New alerts have been introduced on the dashboard to indicate low battery and offline status for intercoms and buzzer locks.
 
 #### <u>User Profiles</u>
-- SIBO users can now access a specific set of properties. This feature is especially beneficial for partners who manage separate teams for each building in their city
-(This feature is limited. allowed to use only for user with single city. Supports the multi-calendar, dashboard, and cleaning tool pages.)
+- SIBO users can now be limited to a specific set of properties. This feature is especially beneficial for partners who manage separate teams for each building in their city.
 
 #### <u>Reservations system</u>
 - Improved the accuracy of guest details in bookings from Rentals United.
