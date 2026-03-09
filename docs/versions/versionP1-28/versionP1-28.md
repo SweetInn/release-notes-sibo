@@ -51,4 +51,4 @@ This release introduces the **Membership Program**, improved arrival/departure v
 - Fixed *(Website/App)* — on certain white-label partner websites, WhatsApp was incorrectly displayed as a contact option in Online Check-In despite not being configured for that partner.
 
 ---
-[View original release email](./versionP1-28.html)
+[View original release email](./release-email.html)

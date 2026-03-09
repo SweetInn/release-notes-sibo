@@ -63,4 +63,4 @@ This release introduces last-minute Early Check-In & Late Check-Out handling, Cu
 - Fixed — invoices incorrectly showed Breakfast included = 0 when breakfast was paid as part of the stay.
 
 ---
-[View original release email](./versionP1-27-5.html)
+[View original release email](./release-email.html)

@@ -65,4 +65,4 @@ P1.22 focuses on full lifecycle management for reports and tasks, structured sup
 - **Hotel OCI Enhancements** *(SIBO)* — smoother hotel check-ins with direct webcam capture and agent ability to confirm house rules on behalf of guests.
 
 ---
-[View original release email](./versionP1-22.html)
+[View original release email](./release-email.html)

@@ -69,4 +69,4 @@ As we centralize knowledge across SIBO, please avoid keeping any operational dat
 - **Guidebooks Collaboration** *(SIBO)* — new tools to request and resolve missing information in guidebooks, ensuring complete and verified guest content per property.
 
 ---
-[View original release email](./versionP1-24.html)
+[View original release email](./release-email.html)

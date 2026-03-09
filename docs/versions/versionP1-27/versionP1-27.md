@@ -60,4 +60,4 @@ The Adama partner site will be fully live in the coming days as rollout complete
 - Enhancement — updated wording across several pages to use consistent Room and Apartment terminology.
 
 ---
-[View original release email](./versionP1-27.html)
+[View original release email](./release-email.html)

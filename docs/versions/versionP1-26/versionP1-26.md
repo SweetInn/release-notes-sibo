@@ -89,4 +89,4 @@ This release focuses on faster guest resolution through the initial **AI ChatBot
 - **Guest Membership Program** *(Website/App)* — a new membership experience designed to reward returning guests with exclusive benefits and a more personalized journey.
 
 ---
-[View original release email](./versionP1-26.html)
+[View original release email](./release-email.html)

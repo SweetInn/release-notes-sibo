@@ -50,4 +50,4 @@ P1.25(5) delivers the new **Deliveries Rules System** — a unified engine that 
 - **Guidebooks Collaboration** *(SIBO)* — tools for agents to request missing information in guidebooks, and a requests management screen to ensure every property has a complete, verified list of guides.
 
 ---
-[View original release email](./versionP1-25-5.html)
+[View original release email](./release-email.html)

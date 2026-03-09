@@ -36,4 +36,4 @@ P1.25 focuses on guest transparency and booking confidence by showing cancellati
 - **Guidebooks Collaboration** *(SIBO)* — tools for agents to request and resolve missing information in guidebooks, ensuring every property has complete, verified guest content.
 
 ---
-[View original release email](./versionP1-25.html)
+[View original release email](./release-email.html)
