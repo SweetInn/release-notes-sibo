@@ -52,7 +52,7 @@ nav_order: 937
 {: .note }
 This upgrade was deployed a week prior to this release.
 
-#### <u>Bug Fixes</u>
+#### <u>Enhancements & Bug Fixes</u>
 
-- Added missing cancellation policy details to the Guest Service Order flow.
-- Fixed additional cases where SIBO now returns a Stripe receipt link when deposits are released.
+- Enhancement *(Website/App)* — added missing cancellation policy details to the Guest Service Order flow.
+- Fixed *(SIBO)* — additional cases where SIBO now correctly returns a Stripe receipt link when deposits are released.

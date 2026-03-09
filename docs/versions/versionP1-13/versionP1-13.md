@@ -23,7 +23,7 @@ nav_order: 947
 - New Bedrooms and Bathrooms Filter — enhanced filtering options for better property searches.
 - Quote Proposal Page — guests can now view detailed proposals sent to them via a dedicated page.
 
-#### <u>SIBO Updates</u>
+#### <u>SIBO</u>
 
 **Unified Inbox:**
 - Create Quotes via Unified Inbox — directly create guest quote proposals during sales conversations.
@@ -50,9 +50,9 @@ nav_order: 947
 - Check-In Tasks — automatically create a check-in task when the check-in method is set to in-person.
 - Lock Dashboard Alerts — automatically generate reports from lock-related alerts on the dashboard.
 
-#### <u>Additional Updates & Bug Fixes</u>
+#### <u>Enhancements & Bug Fixes</u>
 
-- Late Check-Out Availability Issue — resolved an issue where late check-out was incorrectly marked as available on the check-out date.
-- Chatbot Instructions — fixed an issue causing "undefined" text in chatbot check-out instructions for some conversations.
-- Hotel Directory Transportation Numbers — transportation line numbers in hotel directories are now editable.
-- Airbnb Messaging Channel — resolved an issue where Airbnb messaging remained active when guests made a second direct reservation.
+- Fixed *(Services)* — late check-out was incorrectly marked as available on the check-out date.
+- Fixed *(Chatbot)* — an issue was causing "undefined" text in chatbot check-out instructions for some conversations.
+- Enhancement *(Hotel Directory)* — transportation line numbers in hotel directories are now editable.
+- Fixed *(Airbnb)* — Airbnb messaging was remaining active when guests made a second direct reservation.

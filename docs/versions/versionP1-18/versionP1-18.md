@@ -44,8 +44,8 @@ The full journey has been redesigned and optimized to deliver precise, minimal, 
   - **Light Blue (Arrow)** — Optional or follow-up suggestions
   - **Red** — Time-sensitive or critical actions requiring attention (e.g., incomplete OCI)
 
-#### <u>Additional Updates & Bug Fixes</u>
+#### <u>Enhancements & Bug Fixes</u>
 
-- SIBO Quotes — supporting multiple dates and guest options in a single quote.
-- SIBO Journeys — automatically creates and updates WhatsApp templates when editing a journey's text *(for Twilio-WhatsApp partners)*.
-- Fixed — disconnecting a listing from Airbnb does not always work correctly.
+- Enhancement *(SIBO Quotes)* — now supports multiple dates and guest options in a single quote.
+- Enhancement *(SIBO Journeys)* — automatically creates and updates WhatsApp templates when editing a journey's text *(for Twilio-WhatsApp partners)*.
+- Fixed *(SIBO)* — disconnecting a listing from Airbnb does not always work correctly.

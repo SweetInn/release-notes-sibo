@@ -15,7 +15,7 @@ nav_order: 941
 
 ### What's New?
 
-#### <u>SIBO Enhancements</u>
+#### <u>SIBO</u>
 
 **Integrations:**
 - New "Breakfast Included" service for Booking.com reservations, automatically applied when breakfast is included.
@@ -67,14 +67,14 @@ nav_order: 941
 **Old Website (Partners):**
 - The mobile flow now allows guest number updates during booking.
 
-#### <u>Additional Updates & Bug Fixes</u>
+#### <u>Enhancements & Bug Fixes</u>
 
-- "Sweet | " now added as a prefix to property names synced to Rentals United *(except hotels)*, to achieve better visibility with the Google Travel integration.
-- Migrated WhatsApp templates to use the new content templates system *(mandatory infrastructure)*.
-- Fixed — after an internal room change for an Airbnb hotel reservation, the OCI was not opened correctly.
-- Fixed — website extension for Booking.com reservations was causing a pricing mismatch.
-- Fixed — editing the hotel directory CMS was not saving changes.
-- Fixed — Scores Dashboard was showing a wrong counter of at-risk listings.
-- Fixed — Scores Dashboard was showing properties that had already been deleted from the system.
-- Fixed — for some low-score In-Stay Reviews, the report was not being automatically generated as expected.
-- Fixed — alerts about transportation service were not being automatically resolved when the provider approves the ride.
+- Enhancement *(Rentals United)* — "Sweet | " is now added as a prefix to property names synced to Rentals United *(except hotels)*, for better visibility with the Google Travel integration.
+- Enhancement *(WhatsApp)* — WhatsApp templates have been migrated to use the new content templates system *(mandatory infrastructure)*.
+- Fixed *(SIBO)* — after an internal room change for an Airbnb hotel reservation, the OCI was not opened correctly.
+- Fixed *(Website)* — website extension for Booking.com reservations was causing a pricing mismatch.
+- Fixed *(SIBO)* — editing the hotel directory CMS was not saving changes.
+- Fixed *(SIBO)* — Scores Dashboard was showing a wrong counter of at-risk listings.
+- Fixed *(SIBO)* — Scores Dashboard was showing properties that had already been deleted from the system.
+- Fixed *(SIBO)* — for some low-score In-Stay Reviews, the report was not being automatically generated as expected.
+- Fixed *(SIBO)* — alerts about transportation service were not being automatically resolved when the provider approves the ride.

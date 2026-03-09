@@ -26,7 +26,7 @@ nav_order: 948
 **Hotels Support:**
 - Hotel Directory Page — displays guest information including dining schedules, WiFi details, and general information sourced from SIBO.
 
-#### <u>SIBO Updates</u>
+#### <u>SIBO</u>
 
 **Operations Platform:**
 - Task Organizer View — new view to streamline task assignments and scheduling for city employees.
@@ -47,16 +47,16 @@ nav_order: 948
 **Communication with Guests:**
 - Unified Inbox — City and Sales agents can now reassign conversations back to their group (and not just back to the communication center as before).
 
-#### <u>Additional Updates & Bug Fixes</u>
+#### <u>Enhancements & Bug Fixes</u>
 
-- Tranzila payment form transformed to hosted fields for a consistent look on the new website.
-- Resolved blocked calendar issues for specific building properties on Airbnb.
-- Fixed partial keypad image visibility for guest view in Digital Keys.
-- Fixed sporadic stops in journey emails sent to guests.
-- Ensured automatic copying of unit-level information when creating associated properties.
-- Resolved errors in Intercom integration when bookings are created/updated.
-- Addressed issue of duplicate messages and incorrect order in the app chat.
-- Added missing push notification icon for Android devices.
-- Adjusted text size and capitalization for navigation bar text in the app.
-- Resolved navigation issue from destination pages to neighborhood pages in the app.
-- Fixed issue with Airbnb guests not receiving OCI verification codes when booking certain apartments.
+- Enhancement *(Website)* — Tranzila payment form transformed to hosted fields for a consistent look on the new website.
+- Fixed *(Airbnb)* — resolved blocked calendar issues for specific building properties on Airbnb.
+- Fixed *(Digital Keys)* — fixed partial keypad image visibility for the guest view.
+- Fixed *(Journeys)* — fixed sporadic stops in journey emails sent to guests.
+- Fixed *(Inventory Management)* — ensured automatic copying of unit-level information when creating associated properties.
+- Fixed *(Integrations)* — resolved errors in Intercom integration when bookings are created or updated.
+- Fixed *(App)* — addressed issue of duplicate messages and incorrect order in the app chat.
+- Fixed *(App)* — added missing push notification icon for Android devices.
+- Fixed *(App)* — adjusted text size and capitalization for navigation bar text.
+- Fixed *(App)* — resolved navigation issue from destination pages to neighborhood pages.
+- Fixed *(Airbnb)* — fixed issue with Airbnb guests not receiving OCI verification codes when booking certain apartments.

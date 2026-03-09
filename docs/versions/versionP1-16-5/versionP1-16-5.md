@@ -35,13 +35,13 @@ nav_order: 942
 - Hotel Daily Cleanings — cleaning tasks are auto-generated daily based on hotel settings, ensuring efficient scheduling. A new **Do Not Disturb (DND)** status allows tasks to be flagged accordingly, improving operational control.
 - Building Name Filter — users can now filter bookings by building or hotel name, making it easier to manage reservations across multiple properties.
 
-#### <u>Additional Updates & Bug Fixes</u>
+#### <u>Enhancements & Bug Fixes</u>
 
-- Website — guests extending their stay were given an incorrect, overly low suggested price. This has been resolved.
-- Website — added "No Elevator" amenity to the building page to clearly indicate properties without an elevator.
-- SIBO — Clone User in User Management: enabled a new functionality allowing duplication of existing user profiles, assisting in serving new user requests with more accurate permission sets.
-- Website — some units were shown on the building page despite having no availability. This has been resolved.
-- Website — the inquiry form allowed users to select a check-in date after the check-out date. This has been fixed.
-- Website — users were unable to slide through the image gallery on some devices. This has been fixed.
-- SIBO — resolved an error occurring when disconnecting a property from Airbnb.
-- SIBO — bank transfer amounts were incorrectly increased when modifying a Booking.com bank transfer reservation. This has been resolved.
+- Fixed *(Website)* — guests extending their stay were given an incorrect, overly low suggested price.
+- Enhancement *(Website)* — added "No Elevator" amenity to the building page to clearly indicate properties without an elevator.
+- Enhancement *(SIBO)* — a new Clone User functionality in User Management allows duplication of existing profiles, helping with new user requests.
+- Fixed *(Website)* — some units were shown on the building page despite having no availability.
+- Fixed *(Website)* — the inquiry form was allowing users to select a check-in date after the check-out date.
+- Fixed *(Website)* — users were unable to slide through the image gallery on some devices.
+- Fixed *(SIBO)* — resolved an error occurring when disconnecting a property from Airbnb.
+- Fixed *(SIBO)* — bank transfer amounts were incorrectly increased when modifying a Booking.com bank transfer reservation.

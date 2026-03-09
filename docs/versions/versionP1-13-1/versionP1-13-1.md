@@ -23,14 +23,14 @@ nav_order: 946
 - Enhanced Rentals United integration to support alterations for multi-stay reservations (reservations consisting of multiple stays under one booking).
 - This improvement ensures smooth handling of complex reservations and enhances operational efficiency for clustered bookings.
 
-#### <u>Additional Updates & Bug Fixes</u>
+#### <u>Enhancements & Bug Fixes</u>
 
-- Error Creating Bookings with Coupons — resolved an issue that prevented some users from creating bookings when applying valid coupons.
-- Booking.com Prepaid Reservation Fix — addressed an issue where bank-transfer reservations were incorrectly charging guests' credit cards for the prepaid amount.
-- Some conversations remained snoozed after their time — a new job was created to release snoozed conversations that were stuck in a snoozed state.
-- Journey Messages for Abandoned Bookings — fixed an issue where journey messages were being sent to abandoned bookings.
-- Unified Inbox Assignee Filter — fixed a bug where the assignee filter would reset after clicking on the second conversation and onward.
-- Vauban (Visor) Lock Creation Failure — resolved an issue preventing the creation of Vauban (Visor) locks. *(hotfix)*
-- Quote Status Not Updating — fixed an issue where quotes failed to update to "converted" status after booking creation.
-- Deleted Booking ID Appearing in Search — fixed an issue where conversations associated with deleted bookings were still appearing in search results when using the deleted booking ID.
-- Hotel Directory Page Issue — resolved a problem where users were unable to access the Hotel Directory page, which previously displayed a blank screen. *(hotfix)*
+- Fixed *(Bookings)* — an issue was preventing some users from creating bookings when applying valid coupons.
+- Fixed *(Booking.com)* — bank-transfer reservations were incorrectly charging guests' credit cards for the prepaid amount.
+- Fixed *(Unified Inbox)* — some conversations remained snoozed after their scheduled time. A new job was created to release them.
+- Fixed *(Journeys)* — journey messages were being sent to abandoned bookings.
+- Fixed *(Unified Inbox)* — the assignee filter was resetting after clicking on the second conversation and onward.
+- Fixed *(Digital Keys)* — an issue was preventing the creation of Vauban (Visor) locks. *(hotfix)*
+- Fixed *(Quotes)* — quotes were failing to update to "converted" status after booking creation.
+- Fixed *(Unified Inbox)* — conversations associated with deleted bookings were still appearing in search results when using the deleted booking ID.
+- Fixed *(Hotel Directory)* — users were unable to access the Hotel Directory page, which was displaying a blank screen. *(hotfix)*

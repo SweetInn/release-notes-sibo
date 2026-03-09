@@ -15,7 +15,7 @@ nav_order: 939
 
 ### What's New?
 
-#### <u>SIBO Enhancements</u>
+#### <u>SIBO</u>
 
 **Leads Management:**
 - New Leads Management module available under the Customers menu.
@@ -58,11 +58,11 @@ nav_order: 939
 - Fully responsive layout with fallback support when data is missing.
 - Enhanced "You May Also Like" section for cross-promotion.
 
-#### <u>Small Additions & Bug Fixes</u>
+#### <u>Enhancements & Bug Fixes</u>
 
-- Fixed Check-In-Readiness logic — now correctly sets the ETA and modifies digital keys access when ready.
-- Fixed availability issues for combo apartments — when paid ECI/LCO orders are completed, availability correctly closes on the parent/child units.
-- Fixed ECI/LCO being approved when combo units were not fully cleaned.
-- Booking.com comment parser no longer causes premature task creation.
-- Scores Dashboard no longer shows deleted properties or incorrect risk counters.
-- Unified Inbox — added a new CC Specialists Inbox.
+- Fixed *(SIBO)* — Check-In-Readiness logic now correctly sets the ETA and modifies digital keys access when ready.
+- Fixed *(Bookings)* — availability issues for combo apartments; when paid ECI/LCO orders are completed, availability correctly closes on the parent/child units.
+- Fixed *(Bookings)* — ECI/LCO was being approved when combo units were not fully cleaned.
+- Fixed *(SIBO)* — Booking.com comment parser no longer causes premature task creation.
+- Fixed *(SIBO)* — Scores Dashboard no longer shows deleted properties or incorrect risk counters.
+- Enhancement *(Unified Inbox)* — added a new CC Specialists Inbox.

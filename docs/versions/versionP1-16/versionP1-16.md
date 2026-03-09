@@ -15,7 +15,7 @@ nav_order: 943
 
 ### What's New?
 
-#### <u>SIBO Enhancements</u>
+#### <u>SIBO</u>
 
 **Booking Details:**
 - Conversations Tab Added — a new Conversations tab is now available in the Booking Details screen, providing quick access to relevant guest conversations and allowing users to compose new ones.
@@ -37,19 +37,19 @@ nav_order: 943
 **Airbnb Integration:**
 - Airbnb Scores — retrieval of listing scores as preparation for the Scores Dashboard feature and BI dashboard usage.
 
-#### <u>Website & App Enhancements</u>
+#### <u>Website & App</u>
 
 - Search Listings Near Custom Locations — users can now search for listings near a custom location on the City Page Map, improving location-based filtering.
 - Transportation Provider Landing Page — a dedicated landing page has been created for the transportation provider flow.
 
-#### <u>Additional Updates & Bug Fixes</u>
+#### <u>Enhancements & Bug Fixes</u>
 
-- Paid Services API Alignment — the Create Service Request function in SIBO has been updated to use the same API route as the website, ensuring consistency across platforms.
-- Account City Configuration Update — users can now view, add, and edit the payoutContracts configuration in JSON format for each account city.
-- Privacy Enhancement — the sender field in emails sent from the Unified Inbox to guests will no longer display the full name of SIBO users, ensuring privacy compliance.
-- ECI/LCO Service Pricing — when there is an error retrieving prices for Early Check-In / Late Check-Out, the service price remains editable, allowing for manual adjustments.
-- SIBO Cleaning — fixed an issue where creating a cleaning user allowed duplicate users with the same email address but different IDs.
-- SIBO Disclaimer Modal — adjusted modal buttons to display side by side instead of stacking vertically.
-- SIBO Booking Creation Layout — resolved a layout issue causing broken UI on wide screens in the booking creation flow.
-- Online Check-In — removed ambiguous texts about deposit from the missing payments step.
-- Unified Inbox — auto-associate "BI OCI reminder" conversations to a booking.
+- Enhancement *(SIBO)* — the Create Service Request function now uses the same API route as the website, ensuring consistency across platforms.
+- Enhancement *(SIBO)* — users can now view, add, and edit the payoutContracts configuration in JSON format for each account city.
+- Enhancement *(Unified Inbox)* — the sender field in emails sent to guests will no longer display the full name of SIBO users, ensuring privacy compliance.
+- Enhancement *(SIBO)* — when there is an error retrieving ECI/LCO prices, the service price remains editable for manual adjustments.
+- Fixed *(SIBO Cleaning)* — creating a cleaning user was allowing duplicate users with the same email address but different IDs.
+- Fixed *(SIBO)* — disclaimer modal buttons were stacking vertically instead of displaying side by side.
+- Fixed *(SIBO)* — a layout issue was causing broken UI on wide screens in the booking creation flow.
+- Fixed *(Online Check-In)* — removed ambiguous texts about deposit from the missing payments step.
+- Enhancement *(Unified Inbox)* — "BI OCI reminder" conversations are now automatically associated to a booking.

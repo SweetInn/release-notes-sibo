@@ -44,7 +44,7 @@ Activation will follow a few days after deployment. Applies only to the new vers
 - Stores full history, updates daily and in real-time.
 - Enables BI alerts and tracking of listing health over time.
 
-#### <u>Bug Fixes</u>
+#### <u>Enhancements & Bug Fixes</u>
 
-- Booking.com Score Parser — fixed to resume receiving updated scores.
-- Google Pay Confirmation on Android — fixed issue where guests didn't see confirmation after payment.
+- Fixed *(Booking.com)* — Score Parser was not receiving updated scores. This has been resolved.
+- Fixed *(Website/App)* — guests were not seeing payment confirmation after completing Google Pay on Android.

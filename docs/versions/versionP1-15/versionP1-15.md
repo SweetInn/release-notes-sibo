@@ -44,11 +44,11 @@ nav_order: 944
 - New Filters — search for specific quotes more easily with enhanced filtering options including ID, Quote Creator, and Status.
 - Visual Status Indicators — color-coded statuses for better visibility and clarity.
 
-#### <u>Additional Updates & Bug Fixes</u>
+#### <u>Enhancements & Bug Fixes</u>
 
-- Website & App — updated form fields for better visibility and ease of use (global UI improvements).
-- Website & App — fixed incorrect image on the Services page.
-- Website & App — removed incorrect text from the Check-Out Transportation Service; updated text on the Destination page when there are no search results.
-- Unified Inbox — fixed error with long conversation subjects, preventing errors when creating conversations with very long subject lines.
-- Unified Inbox — resolved duplicate processing of conversations, fixing an issue where some conversations were processed twice causing creation errors.
-- Hotel Directory — resolved a bug in the "Save" action where filled information was not being saved.
+- Enhancement *(Website/App)* — updated form fields for better visibility and ease of use.
+- Fixed *(Website/App)* — incorrect image was shown on the Services page.
+- Fixed *(Website/App)* — removed incorrect text from the Check-Out Transportation Service; updated text on the Destination page with no search results.
+- Fixed *(Unified Inbox)* — an error occurred when creating conversations with very long subject lines.
+- Fixed *(Unified Inbox)* — some conversations were being processed twice, causing creation errors.
+- Fixed *(Hotel Directory)* — resolved a bug in the "Save" action where filled information was not being saved.

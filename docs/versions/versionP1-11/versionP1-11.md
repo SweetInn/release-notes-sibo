@@ -13,7 +13,7 @@ nav_order: 950.5
 
 ### What's New?
 
-#### <u>Website Updates</u>
+#### <u>Website & App</u>
 
 **General:**
 - New Payment Form — replaced Stripe's payment form to support upcoming payment methods such as Apple Pay and Google Pay.
@@ -38,25 +38,25 @@ nav_order: 950.5
   *(This change is reflected across various pages where the address is shown.)*
 - The lock of the apartment will be displayed as "Room" when the booking is for a hotel room.
 
-#### <u>SIBO Updates</u>
+#### <u>SIBO</u>
 
 **Unified Inbox:**
 
-*General:*
+**General:**
 - Users with the appropriate permissions can now compose new WhatsApp or Email conversations directly from the Unified Inbox.
 - New WhatsApp conversations can be initiated from a selection of templates, streamlining communication.
 - Logic has been added to prevent closing conversations that have open reports.
 
-*Chatbot:*
+**Chatbot:**
 - The system now recognizes OTA reservation IDs in addition to internal booking IDs when asking guests for their booking information.
 
 **Services:**
 
-*Cancellation Policy:*
+**Cancellation Policy:**
 - Early check-in and late check-out services now follow the booking's cancellation policy.
 - Transportation and housekeeping services are fully refundable up to 2 days before the service date.
 
-*Additional:*
+**Additional:**
 - Cancelling an early check-in or late check-out service will automatically update the calendar.
 - The requested time for early check-in and late check-out services is now required and stored.
 - Cancelled services will be clearly marked with a "cancelled" sign in the booking's price breakdown.
@@ -67,12 +67,12 @@ nav_order: 950.5
   - **Virtual Building:** Functions similarly to a hotel, with the added capability of linking individual properties to Airbnb.
   *(Support for migrating existing properties to Virtual Buildings will be included in the next version.)*
 
-#### <u>Additional Updates & Bug Fixes</u>
+#### <u>Enhancements & Bug Fixes</u>
 
-- Website — some payments made from the website were missing the Payment Method Type.
-- Website — some elements were not displaying correctly when the browser zoom feature was in use.
-- Website — over-navigation allowed while using arrows in the featured neighborhoods component.
-- Website — payments with credit cards that require a 3D Secure step on every transaction were failing to process.
-- NPS/ISR Emails — the property field was not displaying the room number for hotel bookings.
-- About 150 translation fixes for missing translation texts.
-- About 60 translation fixes for texts that were too long and appeared broken on the website.
+- Fixed *(Website)* — some payments made from the website were missing the Payment Method Type.
+- Fixed *(Website)* — some elements were not displaying correctly when the browser zoom feature was in use.
+- Fixed *(Website)* — over-navigation was allowed while using arrows in the featured neighborhoods component.
+- Fixed *(Website)* — payments with credit cards that require a 3D Secure step on every transaction were failing to process.
+- Fixed *(NPS/ISR Emails)* — the property field was not displaying the room number for hotel bookings.
+- Fixed — approximately 150 translation fixes for missing translation texts.
+- Fixed — approximately 60 translation texts that were too long and appeared broken on the website.
