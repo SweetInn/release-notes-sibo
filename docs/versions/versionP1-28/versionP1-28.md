@@ -13,6 +13,12 @@ nav_order: 928
 
 This release introduces the **Membership Program**, improved arrival/departure visibility in Booking Details, Unified Inbox AI and shift management improvements, guest short links across all channels, and the ability to resend quote offers to a different email address.
 
+**Membership Program**
+![Membership Program](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.28/membership_1.png)
+
+**Booking Details: Arrival, Departure & ECI/LCO Request Status**
+![Booking Details: Arrival, Departure & ECI/LCO Request Status](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.28/check_in_out_hours_and_requests_1.png)
+
 ### What's New?
 
 #### <u>Website & App</u>
@@ -43,3 +49,6 @@ This release introduces the **Membership Program**, improved arrival/departure v
 - Enhancement *(SIBO)* — a copy-to-clipboard button was added to the OCI link modal, replacing the previous unclear copy method.
 - Fixed *(SIBO)* — copy-pasting content in the SIBO Sweett chat channel could send HTML instead of plain text, causing messages to appear unreadable on the guest side.
 - Fixed *(Website/App)* — on certain white-label partner websites, WhatsApp was incorrectly displayed as a contact option in Online Check-In despite not being configured for that partner.
+
+---
+[View original release email](./versionP1-28.html)

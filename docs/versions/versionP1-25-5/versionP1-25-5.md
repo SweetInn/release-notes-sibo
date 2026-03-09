@@ -13,6 +13,9 @@ nav_order: 932
 
 P1.25(5) delivers the new **Deliveries Rules System** — a unified engine that manages pricing, availability, and overrides for all delivery services. It also introduces hotel/lobby pickup logic and different guest override options.
 
+**Flexible Delivery Options**
+![Flexible Delivery Options](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.25%285%29/freePickupOrPaidDeliveryService.png)
+
 ### What's New?
 
 #### <u>SIBO</u>
@@ -45,3 +48,6 @@ P1.25(5) delivers the new **Deliveries Rules System** — a unified engine that 
 - **Inventory Inspection Tasks** *(SIBO)* — periodic checks to verify each listing's inventory and confirm that no items are missing.
 - **Inventory Completion Tasks** *(SIBO)* — workflow that determines from which stock source missing items should be replenished after inspections.
 - **Guidebooks Collaboration** *(SIBO)* — tools for agents to request missing information in guidebooks, and a requests management screen to ensure every property has a complete, verified list of guides.
+
+---
+[View original release email](./versionP1-25-5.html)

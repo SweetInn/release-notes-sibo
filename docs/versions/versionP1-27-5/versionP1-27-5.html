@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Release Notes - February 2026 (Version 27.5)</title>
+  </head>
+  <body style="margin:0; padding:0; font-family: Arial, sans-serif; color:#333;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+      <tr>
+        <td align="center">
+          <table width="600" border="0" cellspacing="0" cellpadding="0" style="margin:0 auto; text-align:left;">
+            <!-- Header -->
+            <tr>
+              <td style="padding: 20px;">
+                <h1 style="margin:0; font-size:24px; color:#111;">
+                  Release Notes - February 2026
+                  <span style="color:#4F5356; font-size:16px; line-height:1.6;">(Version 27.5)</span>
+                </h1>
+                <h3 style="color:#003746; font-size:16px; line-height:1.6; margin:16px 0 0 0;">Dear Sweett Team,</h3>
+                <p style="color:#4F5356; font-size:16px; line-height:1.6; margin:8px 0 0 0;">
+                  In this release: 
+                  <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                    <li>New feature of handling <strong style="color:#003746;">last-minute early check-in & late check-out</strong></li>
+                    <li>New service of <strong style="color:#003746;">Custom Breakfast Orders</strong> with pay-link</li>
+                    <li>Improved <strong style="color:#003746;">SIBO Multi-Calendar</strong></li>
+                    <li>Channel manager support for <strong style="color:#003746;">Maximum length of stay</strong></li>
+                    <li>Consistency improvements in <strong style="color:#003746;">Lobbies Opening Hours</strong> across SIBO, Website/App, and guest journeys</li>
+                  </ul>
+                </p>
+              </td>
+            </tr>
+
+            <!-- Highlight Cards -->
+            <tr>
+              <td style="padding: 0 20px 16px 20px;">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+                  <!-- Card 1 -->
+                  <tr>
+                    <td style="padding:12px 14px; background-color:#e8f4f7; border-left:4px solid #003746;">
+                      <strong style="color:#003746; font-size:15px;">Last-minute early check-in &amp; late check-out</strong><br/>
+                      <span style="color:#4F5356; font-size:14px; line-height:1.5;">Clear, instant answers for last-minute requests of early check-in & late check-out.</span>
+                      <div style="max-width:100%; height:auto; margin:10px 0; border-radius:8px; padding:16px; color:#9ca3af;">
+                        <a href="https://res.cloudinary.com/sweetinn/image/upload/Release%20Notes/P1.27%285%29/late_check_out_comp_req.png" target="_blank">
+                          <img src="https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto,w_487,h_250,c_fill/Release%20Notes/P1.27%285%29/late_check_out_comp_req.png" alt="Last-minute early check-in and late check-out" style="max-width:100%; height:auto; border-radius:8px;" />
+                        </a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr><td style="height:8px;"></td></tr>
+                  <!-- Card 2 -->
+                  <tr>
+                    <td style="padding:12px 14px; background-color:#e8f4f7; border-left:4px solid #003746;">
+                      <strong style="color:#003746; font-size:15px;">Custom Breakfast Orders</strong><br/>
+                      <span style="color:#4F5356; font-size:14px; line-height:1.5;">Create custom breakfast orders with dynamic quantity per stay date, dynamic price per guest, and pay-link support.</span>
+                      <div style="max-width:100%; height:auto; margin:10px 0; border-radius:8px; padding:16px; color:#9ca3af;">
+                        <a href="https://res.cloudinary.com/sweetinn/image/upload/Release%20Notes/P1.27%285%29/custom_breakfast.png" target="_blank">
+                          <img src="https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto,w_487,h_250,c_fill/Release%20Notes/P1.27%285%29/custom_breakfast.png" alt="Custom Breakfast Orders with pay-link" style="max-width:100%; height:auto; border-radius:8px;" />
+                        </a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr><td style="height:8px;"></td></tr>
+                  <!-- Card 3 -->
+                  <tr>
+                    <td style="padding:12px 14px; background-color:#e8f4f7; border-left:4px solid #003746;">
+                      <strong style="color:#003746; font-size:15px;">Quick access to booking actions</strong><br/>
+                      <span style="color:#4F5356; font-size:14px; line-height:1.5;">All actions for a booking (Digital Keys, Early check-in, late check-out, and more) are now in one menu at the top of the page - no scrolling to the bottom to find what you need.</span>
+                      <div style="max-width:100%; height:auto; margin:10px 0; border-radius:8px; padding:16px; color:#9ca3af;">
+                        <a href="https://res.cloudinary.com/sweetinn/image/upload/Release%20Notes/P1.27%285%29/booking_actions.png" target="_blank">
+                          <img src="https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto,w_487,h_250,c_fill/Release%20Notes/P1.27%285%29/booking_actions.png" alt="Quick access to booking actions menu at top of page" style="max-width:100%; height:auto; border-radius:8px;" />
+                        </a>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- SIBO -->
+            <tr>
+              <td style="padding: 20px;">
+                <h2 style="color:#003746; margin-top:0;">SIBO</h2>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Guest Experience</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li><strong style="color:#003746;">Quick access to booking actions</strong> — All actions for a booking (such as early check-in or late check-out) now live in one menu at the top of the page, so you can choose what you need without scrolling to the bottom.</li>
+                  <li><strong style="color:#003746;">Handle Last Minute ECI and LCO on Booking Actions</strong> provides accurate, immediate responses for last-minute <strong style="color:#003746;">early check-in</strong> and <strong style="color:#003746;">late check-out</strong> requests made from Booking Details, Actions menu.</li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Direct Sales &amp; Services</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li><strong style="color:#003746;">Support Custom Breakfast Orders</strong> lets agents create custom breakfast orders per stay date with dynamic pricing and <strong style="color:#003746;">pay-link</strong> support.</li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Consistency and Reliability</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li><strong style="color:#003746;">Lobby Opening Hours Consistency</strong> standardizes and correctly displays hotel <strong style="color:#003746;">lobby opening hours</strong> across SIBO and the website.</li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Integrations</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li><strong style="color:#003746;">Send Maximum Length of Stay to Rentals United</strong> syncs the <strong style="color:#003746;">maximum length of stay</strong> restriction to Rentals United to ensure booking limits are enforced (currently applied to hotels).</li>
+                  <li><strong style="color:#003746;">Rentals United Base-Price Logic Deprecation</strong> removes deprecated Rentals United base-price logic and relies exclusively on explicit nightly pricing to improve channel compatibility and pricing accuracy.</li>
+                  <li><strong style="color:#003746;">Fix Booking.com Cancellation Policy Recognition</strong> ensures Booking.com reservations are assigned the correct cancellation policy for all partners.</li>
+                  <li><strong style="color:#003746;">Fix Rentals United Alterations Reverting After Update</strong> resolves a timing conflict between API updates and incoming webhooks that could revert booking alterations.</li>
+                </ul>
+
+              </td>
+            </tr>
+
+            <!-- Website & App -->
+            <tr>
+              <td style="padding: 20px;">
+                <h2 style="color:#003746; margin-top:0;">Website &amp; App</h2>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Online Check-In and Guest Dashboard</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li><strong style="color:#003746;">Handle Last Minute ECI and LCO requests</strong> on Online Check-In and Guest Dashboard provides accurate, immediate responses for last-minute early check-in and late check-out requests.</li>
+                  <li><strong style="color:#003746;">WhatsApp Default Contact Method</strong> sets <strong style="color:#003746;">WhatsApp</strong> as the default contact method in Online Check-In for non-Airbnb guests.</li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Consistency and Reliability</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li><strong style="color:#003746;">Lobby Opening Hours Consistency</strong> standardizes and correctly displays hotel <strong style="color:#003746;">lobby opening hours</strong> across the website and SIBO.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <!-- Enhancements & Bug Fixes -->
+            <tr>
+              <td style="padding: 20px;">
+                <h2 style="color:#003746;">Enhancements &amp; Bug Fixes</h2>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px;">
+                  <li><strong style="color:#003746;">Enhanced Multi-Calendar View for Single Property Units</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span> flattens buildings with single-property units to reduce UI clutter and make availability easier to scan.</li>
+                  <li><strong style="color:#003746;">Multi-Calendar Property Name Visibility</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span> adds a <strong style="color:#003746;">Specs</strong> toggle to hide property attribute icons and free up space for displaying full property names.</li>
+                  <li><strong style="color:#003746;">Smoother Multi-Calendar Experience</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span> delays tooltips slightly on hover, so they do not flash while moving across multiple bookings or blocked dates.</li>
+                  <li><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Website Services Date Consistency</strong><span style="font-size:12px; color:#FFF; background-color:#007e9d; padding:2px 6px; border-radius:4px; margin-left:6px;">Website/App</span> fixes inconsistent service dates shown to guests in different time zones and locations.</li>
+                  <li><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Avoid Page Crash on Trailing Slash Links</strong><span style="font-size:12px; color:#FFF; background-color:#007e9d; padding:2px 6px; border-radius:4px; margin-left:6px;">Website/App</span> ensures shared or bookmarked links load correctly even when the URL includes a trailing slash, by applying sensible defaults instead of showing errors.</li>
+                  <li><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Fix Unit Page Not Opening on Adama Website</strong><span style="font-size:12px; color:#FFF; background-color:#007e9d; padding:2px 6px; border-radius:4px; margin-left:6px;">Website/App</span> resolves an issue where unit pages on the Adama partner website could fail to load and show an error instead of unit details.</li>
+                  <li><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Fix User Mentions Not Sharing Conversations</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span> ensures that mentioning a user in a comment automatically shares the conversation with them.</li>
+                  <li><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Invoice Breakfast Included Value Fix</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span> resolves an issue where invoices incorrectly showed <strong style="color:#003746;">Breakfast included = 0</strong> when breakfast was paid as part of the stay.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td style="padding: 20px;">
+                <p style="color:#4F5356; font-size:16px; line-height:1.6; margin: 8px 0 0 0;">
+                  For training on these updates, please reach out to schedule a session.<br/>
+                  For technical support, contact <a href="mailto:techsupport@sweett.com" style="color:#003746;">Tech-Support</a>.
+                </p>
+              </td>
+            </tr>
+
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

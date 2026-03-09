@@ -13,6 +13,15 @@ nav_order: 935
 
 P1.22 focuses on full lifecycle management for reports and tasks, structured support for common areas, smarter booking filters, partner white label foundations, and a streamlined connect flow on the website and app.
 
+**Reports and Tasks**
+![Reports and Tasks](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.22/chained_reports_tasks.png)
+
+**Quick Filters**
+![Quick Filters](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.22/quick_filters.png)
+
+**Website and App**
+![Website and App](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.22/connect_email_link.png)
+
 ### What's New?
 
 #### <u>SIBO</u>
@@ -54,3 +63,6 @@ P1.22 focuses on full lifecycle management for reports and tasks, structured sup
 - **Reports Team Dimension** *(SIBO)* — ability to filter and group reports by the responsible team based on category.
 - **Nuki Daily Device Wake-Up** *(SIBO)* — proactive sync to keep smart lock statuses and battery alerts accurate every day.
 - **Hotel OCI Enhancements** *(SIBO)* — smoother hotel check-ins with direct webcam capture and agent ability to confirm house rules on behalf of guests.
+
+---
+[View original release email](./versionP1-22.html)

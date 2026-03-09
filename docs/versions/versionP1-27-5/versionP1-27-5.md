@@ -13,6 +13,15 @@ nav_order: 929
 
 This release introduces last-minute Early Check-In & Late Check-Out handling, Custom Breakfast Orders with pay-link, Multi-Calendar improvements, Maximum Length of Stay for channel management, and lobby opening hours consistency across SIBO, Website/App, and guest journeys.
 
+**Last-minute Early Check-In & Late Check-Out**
+![Last-minute Early Check-In & Late Check-Out](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.27%285%29/late_check_out_comp_req.png)
+
+**Custom Breakfast Orders**
+![Custom Breakfast Orders](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.27%285%29/custom_breakfast.png)
+
+**Quick Access to Booking Actions**
+![Quick Access to Booking Actions](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.27%285%29/booking_actions.png)
+
 ### What's New?
 
 #### <u>SIBO</u>
@@ -52,3 +61,6 @@ This release introduces last-minute Early Check-In & Late Check-Out handling, Cu
 - Fixed — unit pages on the Adama partner website could fail to load and show an error instead of unit details.
 - Fixed — mentioning a user in a comment now correctly shares the conversation with them.
 - Fixed — invoices incorrectly showed Breakfast included = 0 when breakfast was paid as part of the stay.
+
+---
+[View original release email](./versionP1-27-5.html)

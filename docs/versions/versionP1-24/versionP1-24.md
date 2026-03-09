@@ -18,6 +18,15 @@ All work together toward a more complete, structured knowledge system — enabli
 {: .important }
 As we centralize knowledge across SIBO, please avoid keeping any operational data outside the system, including property notes, SOP drafts, or guest issue trackers. From now on, everything should live in SIBO, ensuring information stays accurate, searchable, and ready for both agents and AI assistants.
 
+**Knowledge Base**
+![Knowledge Base](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.24/KnowledgeBase.png)
+
+**Property Guidebooks**
+![Property Guidebooks](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.24/GuidbooksTab.png)
+
+**Reports Fix & Access Preferences**
+![Reports Fix & Access Preferences](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.24/ReportsAccessAndFixPreference.png)
+
 ### What's New?
 
 #### <u>Knowledge Base</u>
@@ -58,3 +67,6 @@ As we centralize knowledge across SIBO, please avoid keeping any operational dat
 - **Task Scheduling Flexibility** *(SIBO)* — tasks for deliveries will support wider time windows, spanning multiple dates or extended periods.
 - **Reports Smart Automation** *(SIBO)* — reports will automatically re-open when pending tasks miss their due date, with new visual indicators.
 - **Guidebooks Collaboration** *(SIBO)* — new tools to request and resolve missing information in guidebooks, ensuring complete and verified guest content per property.
+
+---
+[View original release email](./versionP1-24.html)

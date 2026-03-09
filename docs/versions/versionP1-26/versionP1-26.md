@@ -13,6 +13,18 @@ nav_order: 931
 
 This release focuses on faster guest resolution through the initial **AI ChatBot**, stronger operational control with **Inventory inspection and completion workflows**, a tighter feedback loop for **Guidebooks**, improved operational follow-up with **Damage Classification**, and automated Re-Opened report handling when tasks are overdue.
 
+**AI ChatBot**
+![AI ChatBot](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.26/ai_chatbot_conversation.png)
+
+**Damage Classification**
+![Damage Classification](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.26/damage_classification.png)
+
+**Inventory Inspections & Completion Tasks**
+![Inventory Inspections & Completion Tasks](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.26/inventory_inspection_task.png)
+
+**Guidebooks Lobby Details & Missing Info Request**
+![Guidebooks Lobby Details & Missing Info Request](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.26/guidebooks_lobby_details_and_info_request.png)
+
 ### What's New?
 
 #### <u>AI ChatBot</u>
@@ -75,3 +87,6 @@ This release focuses on faster guest resolution through the initial **AI ChatBot
 - **Maximum Stay Length for Partner Bookings** *(SIBO)* — support for setting a maximum stay length when working with external rental partners.
 - **Remembering Last Search Results** *(Website/App)* — guests will be able to return to their most recent search results.
 - **Guest Membership Program** *(Website/App)* — a new membership experience designed to reward returning guests with exclusive benefits and a more personalized journey.
+
+---
+[View original release email](./versionP1-26.html)

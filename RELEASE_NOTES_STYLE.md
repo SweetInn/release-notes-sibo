@@ -119,6 +119,8 @@ If a RND ticket number exists, append it inline in a second set of italic parent
 
 ## Image Embedding
 
+### Local assets
+
 Always use the Jekyll Liquid `relative_url` filter. Never use raw relative paths.
 
 ```markdown
@@ -126,6 +128,33 @@ Always use the Jekyll Liquid `relative_url` filter. Never use raw relative paths
 ```
 
 Image assets live in `assets/images/versionP1.XX/` (use the version folder matching the page).
+
+### Cloudinary highlight card images
+
+When the HTML release note email includes a **Highlight Cards** section (feature showcase images at the top of the email), embed them directly using the Cloudinary URL with `q_auto,f_auto` transforms. Do not download to local assets.
+
+Place these images **between the intro paragraph and `### What's New?`**, one per card. Precede each image with a bold card title label:
+
+```markdown
+**Card Title**
+![Card Title](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.XX/filename.png)
+
+**Another Card**
+![Another Card](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.XX/another_filename.png)
+```
+
+If a single card contains multiple stacked images (e.g., P1.25 with 3 screenshots for one feature), place one bold title above the first image only, then list the remaining images beneath it without additional labels:
+
+```markdown
+**Feature Name**
+![Feature Name](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.XX/screenshot_1.png)
+
+![Feature Name](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.XX/screenshot_2.png)
+
+![Feature Name](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.XX/screenshot_3.png)
+```
+
+URL-encode spaces and parentheses in the Cloudinary path: space → `%20`, `(` → `%28`, `)` → `%29`.
 
 ---
 

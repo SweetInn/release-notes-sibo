@@ -13,6 +13,13 @@ nav_order: 933
 
 P1.25 focuses on guest transparency and booking confidence by showing cancellation policies earlier in the browsing flow, allowing guests to compare and choose before entering the booking process. This update aims to improve conversion rates by giving guests the clarity they need to confirm bookings with confidence.
 
+**Early Display of Cancellation Policies**
+![Early Display of Cancellation Policies](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.25/earlyDisplayOfCancellationPolicies_3.png)
+
+![Early Display of Cancellation Policies](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.25/earlyDisplayOfCancellationPolicies_2-1.png)
+
+![Early Display of Cancellation Policies](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.25/earlyDisplayOfCancellationPolicies_1.png)
+
 ### What's New?
 
 #### <u>Website & App</u>
@@ -27,3 +34,6 @@ P1.25 focuses on guest transparency and booking confidence by showing cancellati
 - **Task Scheduling Flexibility** *(SIBO)* — wider time-window support for tasks created for deliveries to make coordination easier across multiple dates.
 - **Reports Smart Automation** *(SIBO)* — reports will automatically re-open when pending tasks miss their due date, with new visual indicators to simplify tracking.
 - **Guidebooks Collaboration** *(SIBO)* — tools for agents to request and resolve missing information in guidebooks, ensuring every property has complete, verified guest content.
+
+---
+[View original release email](./versionP1-25.html)
