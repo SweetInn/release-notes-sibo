@@ -1,0 +1,63 @@
+{% assign releases = site.data.releases.releases %}
+{% assign dated = releases | where: "legacy", false %}
+{% assign legacy = releases | where: "legacy", true %}
+
+<div class="tl-wrapper">
+
+  {% assign current_year = "" %}
+  {% assign index = 0 %}
+
+  {% for release in dated %}
+    {% assign year = release.date | slice: 0, 4 %}
+
+    {% if year != current_year %}
+      {% if current_year != "" %}
+        </div><!-- /.tl-year-group -->
+      {% endif %}
+      <div class="tl-year-group">
+      <div class="tl-year-marker"><span>{{ year }}</span></div>
+      {% assign current_year = year %}
+    {% endif %}
+
+    {% assign side = index | modulo: 2 %}
+    {% if side == 0 %}
+      {% assign card_class = "tl-card tl-left" %}
+    {% else %}
+      {% assign card_class = "tl-card tl-right" %}
+    {% endif %}
+
+    <div class="{{ card_class }}">
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="tl-card-header">
+          <span class="tl-badge">{{ release.version }}</span>
+          <span class="tl-date">{{ release.display_date }}</span>
+        </div>
+        <p class="tl-blurb">{{ release.blurb }}</p>
+        <a class="tl-link" href="{{ release.url | relative_url }}">View Release Notes &rarr;</a>
+      </div>
+    </div>
+
+    {% assign index = index | plus: 1 %}
+  {% endfor %}
+
+  {% if current_year != "" %}
+    </div><!-- /.tl-year-group -->
+  {% endif %}
+
+  {% if legacy.size > 0 %}
+    <div class="tl-legacy-section">
+      <div class="tl-legacy-header"><span>Legacy Versions (Pre-2024)</span></div>
+      <div class="tl-legacy-grid">
+        {% for release in legacy %}
+          <div class="tl-legacy-card">
+            <span class="tl-badge tl-badge-legacy">{{ release.version }}</span>
+            <p class="tl-blurb">{{ release.blurb }}</p>
+            <a class="tl-link" href="{{ release.url | relative_url }}">View Release Notes &rarr;</a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+</div><!-- /.tl-wrapper -->

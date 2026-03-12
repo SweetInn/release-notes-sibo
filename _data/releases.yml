@@ -1,0 +1,238 @@
+releases:
+  - version: "P1.28(1)"
+    date: "2026-03-12"
+    display_date: "Mar 12, 2026"
+    url: "/docs/versions/versionP1-28-1/versionP1-28-1.html"
+    blurb: "Damage Protection as an alternative to security deposit in Online Check-In"
+    legacy: false
+
+  - version: "P1.28"
+    date: "2026-03-04"
+    display_date: "Mar 04, 2026"
+    url: "/docs/versions/versionP1-28/versionP1-28.html"
+    blurb: "Membership Program launched to reward loyalty and drive repeat bookings"
+    legacy: false
+
+  - version: "P1.27(5)"
+    date: "2026-02-24"
+    display_date: "Feb 24, 2026"
+    url: "/docs/versions/versionP1-27-5/versionP1-27-5.html"
+    blurb: "Last-minute Early Check-In & Late Check-Out handling with accurate real-time responses"
+    legacy: false
+
+  - version: "P1.27"
+    date: "2026-02-05"
+    display_date: "Feb 05, 2026"
+    url: "/docs/versions/versionP1-27/versionP1-27.html"
+    blurb: "Apple Pay expanded across app and web with booking flow step 2 redesign"
+    legacy: false
+
+  - version: "P1.26"
+    date: "2025-12-29"
+    display_date: "Dec 29, 2025"
+    url: "/docs/versions/versionP1-26/versionP1-26.html"
+    blurb: "AI ChatBot launched for guests across Airbnb, WhatsApp, Telegram, and website"
+    legacy: false
+
+  - version: "P1.25(5)"
+    date: "2025-12-09"
+    display_date: "Dec 09, 2025"
+    url: "/docs/versions/versionP1-25-5/versionP1-25-5.html"
+    blurb: "Deliveries Rules Engine: unified pricing, availability, and overrides for all delivery services"
+    legacy: false
+
+  - version: "P1.25"
+    date: "2025-11-11"
+    display_date: "Nov 11, 2025"
+    url: "/docs/versions/versionP1-25/versionP1-25.html"
+    blurb: "Cancellation policies shown early on property pages to improve booking confidence"
+    legacy: false
+
+  - version: "P1.24"
+    date: "2025-11-04"
+    display_date: "Nov 04, 2025"
+    url: "/docs/versions/versionP1-24/versionP1-24.html"
+    blurb: "Knowledge Base for SOPs and Guidebooks tab added to booking details"
+    legacy: false
+
+  - version: "P1.22"
+    date: "2025-10-15"
+    display_date: "Oct 15, 2025"
+    url: "/docs/versions/versionP1-22/versionP1-22.html"
+    blurb: "Chained Reports & Tasks system for full issue lifecycle management in SIBO"
+    legacy: false
+
+  - version: "P1.21"
+    date: "2025-08-19"
+    display_date: "Aug 19, 2025"
+    url: "/docs/versions/versionP1-21/versionP1-21.html"
+    blurb: "Full Inventory Management system launched with templates, audit trail, and global tracking"
+    legacy: false
+
+  - version: "P1.20"
+    date: "2025-07-29"
+    display_date: "Jul 29, 2025"
+    url: "/docs/versions/versionP1-20/versionP1-20.html"
+    blurb: "Installment payment option and breakfast ordering added to website and app"
+    legacy: false
+
+  - version: "P1.19(5)"
+    date: "2025-06-19"
+    display_date: "Jun 19, 2025"
+    url: "/docs/versions/versionP1-19-5/versionP1-19-5.html"
+    blurb: "PayPal via Stripe added to all guest-facing payment screens"
+    legacy: false
+
+  - version: "P1.19"
+    date: "2025-06-10"
+    display_date: "Jun 10, 2025"
+    url: "/docs/versions/versionP1-19/versionP1-19.html"
+    blurb: "Leads Management module and content-driven Hotel Page launched"
+    legacy: false
+
+  - version: "P1.18"
+    date: "2025-05-13"
+    display_date: "May 13, 2025"
+    url: "/docs/versions/versionP1-18/versionP1-18.html"
+    blurb: "Complete Guest Journey redesigned from booking confirmation to post-stay NPS"
+    legacy: false
+
+  - version: "P1.17"
+    date: "2025-03-26"
+    display_date: "Mar 26, 2025"
+    url: "/docs/versions/versionP1-17/versionP1-17.html"
+    blurb: "New NPS flow with personal guest coupon and homepage redesign for hotels"
+    legacy: false
+
+  - version: "P1.16(5)"
+    date: "2025-03-09"
+    display_date: "Mar 09, 2025"
+    url: "/docs/versions/versionP1-16-5/versionP1-16-5.html"
+    blurb: "Marketing Promotions system and multi-source Scores Dashboard launched in SIBO"
+    legacy: false
+
+  - version: "P1.16"
+    date: "2025-02-06"
+    display_date: "Feb 06, 2025"
+    url: "/docs/versions/versionP1-16/versionP1-16.html"
+    blurb: "Automated transportation provider approval flow with dedicated landing page"
+    legacy: false
+
+  - version: "P1.15"
+    date: "2025-01-14"
+    display_date: "Jan 14, 2025"
+    url: "/docs/versions/versionP1-15/versionP1-15.html"
+    blurb: "Online Check-In flow simplified with saved progress and streamlined document upload"
+    legacy: false
+
+  - version: "P1.14"
+    date: "2024-12-15"
+    display_date: "Dec 15, 2024"
+    url: "/docs/versions/versionP1-14/versionP1-14.html"
+    blurb: "Multiple City Tax Rules for accurate per-night tax calculation across date ranges"
+    legacy: false
+
+  - version: "P1.13(1)"
+    date: "2024-12-15"
+    display_date: "Dec 15, 2024"
+    url: "/docs/versions/versionP1-13-1/versionP1-13-1.html"
+    blurb: "Multi-stay alteration support for Rentals United clustered bookings"
+    legacy: false
+
+  - version: "P1.13"
+    date: "2024-12-05"
+    display_date: "Dec 05, 2024"
+    url: "/docs/versions/versionP1-13/versionP1-13.html"
+    blurb: "Guest Quote Proposals and Cleaner Lock Codes with automated task management"
+    legacy: false
+
+  - version: "P1.12"
+    date: "2024-11-19"
+    display_date: "Nov 19, 2024"
+    url: "/docs/versions/versionP1-12/versionP1-12.html"
+    blurb: "Self-service guest portal for stay extension, transportation, and cleaning services"
+    legacy: false
+
+  - version: "P1.11(5)"
+    date: "2024-09-26"
+    display_date: "Sep 26, 2024"
+    url: "/docs/versions/versionP1-11-5/versionP1-11-5.html"
+    blurb: "Booking flow restructured into three clear steps for improved conversion"
+    legacy: false
+
+  - version: "P1.11(2)"
+    date: "2024-08-25"
+    display_date: "Aug 25, 2024"
+    url: "/docs/versions/versionP1-11-2/versionP1-11-2.html"
+    blurb: "Google Pay and Apple Pay added to booking flow and payment links"
+    legacy: false
+
+  - version: "P1.11"
+    date: "2024-08-18"
+    display_date: "Aug 18, 2024"
+    url: "/docs/versions/versionP1-11/versionP1-11.html"
+    blurb: "Paid Early Check-In and Late Check-Out ordering added to Online Check-In flow"
+    legacy: false
+
+  - version: "v47 Additionals"
+    date: "2024-06-20"
+    display_date: "Jun 20, 2024"
+    url: "/docs/versions/version47additionals/version47additionals.html"
+    blurb: "ECI/LCO requests in Online Check-In and auto-assignment rules for Unified Inbox"
+    legacy: false
+
+  - version: "v47"
+    date: "2024-06-09"
+    display_date: "Jun 09, 2024"
+    url: "/docs/versions/version47/version47.html"
+    blurb: "Redesigned Digital Keys experience with full-page lock view and Block DKs toggle"
+    legacy: false
+
+  - version: "v46"
+    date: ""
+    display_date: ""
+    url: "/docs/versions/version46/version46.html"
+    blurb: "Multilingual chatbot launched with dynamic housekeeping pricing and user property scoping"
+    legacy: true
+
+  - version: "v45B"
+    date: ""
+    display_date: ""
+    url: "/docs/versions/version45B/version45b.html"
+    blurb: "Chatbot pre-check-in and check-in day interactions with report subscriptions"
+    legacy: true
+
+  - version: "v45A"
+    date: ""
+    display_date: ""
+    url: "/docs/versions/version45A/version45a.html"
+    blurb: "Airbnb email alias deprecation: OCI verification now sent via Airbnb messaging"
+    legacy: true
+
+  - version: "v44"
+    date: ""
+    display_date: ""
+    url: "/docs/versions/version44/version44.html"
+    blurb: "Returning Guest auto-tagging and Postpone Task feature for operations"
+    legacy: true
+
+  - version: "v43"
+    date: ""
+    display_date: ""
+    url: "/docs/versions/version43/version43.html"
+    blurb: "Chatbot rolled out to all properties with paid ECI/LCO service order forms"
+    legacy: true
+
+  - version: "v42"
+    date: ""
+    display_date: ""
+    url: "/docs/versions/version42/version42.html"
+    blurb: "New deposit capture procedure and WhatsApp button-based message templates"
+    legacy: true
+
+  - version: "v41"
+    date: ""
+    display_date: ""
+    url: "/docs/versions/version41/version41.html"
+    blurb: "Operations Platform, Guidebook CMS, and Chatbot introduced as flagship features"
+    legacy: true
