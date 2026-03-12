@@ -1,0 +1,555 @@
+// ─── Video embeds ─────────────────────────────────────────────────────────────
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.responsive-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+// ─── Release Timeline ─────────────────────────────────────────────────────────
+//
+// Layout model:
+//   .tl-year-group holds the vertical center line (::before at left:50%)
+//   .tl-item is exactly 50% wide — this is the key that makes the geometry work:
+//     tl-left: left half, dot at right:-7px  → dot centre lands on the 50% line
+//     tl-right: starts at 50% (margin-left:50%), dot at left:-7px → same
+//   Mobile (<740px): single column, line on the left rail
+
+$tl-accent:      #5D750F;
+$tl-accent-pale: #eef2e0;
+$tl-line:        #d5dbbe;
+$tl-dot-r:       7px;
+$tl-gap:         1.8rem;
+$tl-break:       740px;
+
+.tl-wrapper {
+    padding: 0.5rem 0 3rem;
+    overflow: hidden;
+}
+
+.tl-year-group {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: $tl-line;
+        transform: translateX(-50%);
+        z-index: 0;
+    }
+
+    @media (max-width: $tl-break) {
+        &::before { left: 20px; }
+    }
+}
+
+.tl-year-marker {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    padding: 1.8rem 0 1rem;
+
+    span {
+        background: $tl-accent;
+        color: #fff;
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        padding: 0.3rem 1.1rem;
+        border-radius: 20px;
+        box-shadow: 0 2px 8px rgba(93, 117, 15, 0.35);
+    }
+
+    @media (max-width: $tl-break) {
+        justify-content: flex-start;
+        padding-left: 44px;
+    }
+}
+
+.tl-item {
+    position: relative;
+    width: 50%;
+    padding-bottom: 2rem;
+
+    // Connector dot
+    &::before {
+        content: "";
+        position: absolute;
+        top: 1.1rem;
+        width: #{$tl-dot-r * 2};
+        height: #{$tl-dot-r * 2};
+        border-radius: 50%;
+        background: $tl-accent;
+        border: 3px solid #fff;
+        box-shadow: 0 0 0 2px $tl-accent;
+        z-index: 2;
+    }
+
+    // Left card: right edge at 50%, dot right:-7px → dot centre = 50% ✓
+    &.tl-left {
+        padding-right: $tl-gap;
+
+        &::before {
+            right: -#{$tl-dot-r};
+            left: auto;
+        }
+
+        .tl-content     { text-align: right; }
+        .tl-card-header { flex-direction: row-reverse; }
+        .tl-link        { display: block; text-align: right; }
+    }
+
+    // Right card: starts at 50%, dot left:-7px → dot centre = 50% ✓
+    &.tl-right {
+        margin-left: 50%;
+        padding-left: $tl-gap;
+
+        &::before {
+            left: -#{$tl-dot-r};
+            right: auto;
+        }
+    }
+
+    @media (max-width: $tl-break) {
+        width: 100%;
+        margin-left: 0 !important;
+        padding-left: 52px !important;
+        padding-right: 0 !important;
+
+        &::before {
+            left: calc(20px - #{$tl-dot-r}) !important;
+            right: auto !important;
+        }
+
+        .tl-content     { text-align: left !important; }
+        .tl-card-header { flex-direction: row !important; }
+        .tl-link        { text-align: left !important; }
+    }
+}
+
+.tl-content {
+    background: #fff;
+    border: 1px solid $tl-line;
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+    transition: box-shadow 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
+
+    &:hover {
+        box-shadow: 0 6px 20px rgba(93, 117, 15, 0.18);
+        border-color: $tl-accent;
+        transform: translateY(-2px);
+    }
+}
+
+.tl-card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    margin-bottom: 0.55rem;
+    flex-wrap: wrap;
+}
+
+.tl-badge {
+    display: inline-block;
+    background: $tl-accent;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    padding: 0.18rem 0.7rem;
+    border-radius: 20px;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.tl-date {
+    font-size: 0.76rem;
+    color: #999;
+    white-space: nowrap;
+}
+
+.tl-blurb {
+    font-size: 0.88rem;
+    color: #4a4a4a;
+    margin: 0 0 0.7rem;
+    line-height: 1.55;
+}
+
+.tl-link {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: $tl-accent;
+    text-decoration: none;
+
+    &:hover { text-decoration: underline; }
+}
+
+// ─── Legacy section ────────────────────────────────────────────────────────────
+
+.tl-legacy-section {
+    margin-top: 3.5rem;
+}
+
+.tl-legacy-divider {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+
+    &::before,
+    &::after {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: $tl-line;
+    }
+
+    span {
+        background: #f2f2f2;
+        color: #999;
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        padding: 0.25rem 1rem;
+        border-radius: 20px;
+        white-space: nowrap;
+    }
+}
+
+.tl-legacy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 1rem;
+}
+
+.tl-legacy-card {
+    background: #fafafa;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    padding: 0.9rem 1.1rem;
+    transition: border-color 0.18s ease, box-shadow 0.18s ease;
+
+    &:hover {
+        border-color: #bbb;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .tl-blurb {
+        font-size: 0.82rem;
+        color: #777;
+        margin: 0.4rem 0 0.65rem;
+    }
+}
+
+.tl-badge-legacy {
+    background: #bbb;
+}
+
+// ─── Version Page Layout ───────────────────────────────────────────────────────
+
+$v-break-toc:  960px;
+$v-break-hero: 600px;
+
+// ── Hero header ───────────────────────────────────────────────────────────────
+
+.version-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 0 1rem;
+    margin-bottom: 1.8rem;
+    border-bottom: 2px solid $tl-line;
+    flex-wrap: wrap;
+}
+
+.vh-left {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.vh-badge {
+    font-size: 0.95rem !important;
+    padding: 0.3rem 1.1rem !important;
+    letter-spacing: 0.05em;
+}
+
+.vh-date {
+    font-size: 0.88rem;
+    color: #888;
+    font-weight: 500;
+}
+
+.vh-back {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: $tl-accent;
+    text-decoration: none;
+    white-space: nowrap;
+    opacity: 0.75;
+    transition: opacity 0.15s ease;
+
+    &:hover { opacity: 1; text-decoration: none; }
+
+    @media (max-width: $v-break-hero) { display: none; }
+}
+
+// ── Two-column layout ─────────────────────────────────────────────────────────
+
+.version-layout {
+    display: flex;
+    gap: 2.5rem;
+    align-items: flex-start;
+}
+
+.version-body {
+    flex: 1;
+    min-width: 0;
+}
+
+// ── Suppress duplicate h1 and Released line from markdown body ─────────────────
+
+.version-body > h1:first-child {
+    display: none;
+}
+
+// Hide the **Released:** paragraph — always the first <p> in version bodies.
+// Targets a <p> whose sole/first child is a <strong> containing "Released"
+.version-body > p:first-of-type:has(> strong:first-child) {
+    display: none;
+}
+
+// ── Content typography ────────────────────────────────────────────────────────
+
+// "### What's New?" heading
+.version-body h3 {
+    color: $tl-accent;
+    font-size: 1.05rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid $tl-accent-pale;
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+// Category headers — #### <u>SIBO</u>
+.version-body h4 {
+    position: relative;
+    padding-left: 0.9rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #333;
+    margin-top: 1.6rem;
+    margin-bottom: 0.8rem;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.1em;
+        bottom: 0.1em;
+        width: 3px;
+        background: $tl-accent;
+        border-radius: 2px;
+    }
+
+    u { text-decoration: none; }
+}
+
+// Sub-feature header paragraphs — **Feature Name:** followed immediately by a bullet list.
+// The :has(+ ul) constraint prevents matching intro paragraphs that merely bold a phrase.
+.version-body p:has(> strong:only-child):has(+ ul) {
+    background: $tl-accent-pale;
+    border-left: 3px solid $tl-accent;
+    padding: 0.35rem 0.75rem;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    border-radius: 0 6px 6px 0;
+    font-size: 0.9rem;
+}
+
+// Bullet list items
+.version-body ul li {
+    padding: 0.15rem 0;
+    line-height: 1.6;
+    font-size: 0.92rem;
+}
+
+// Fixed / Enhancement bullets — colour-coded left pip
+// "- Fixed *(Scope)*" and "- Enhancement *(Scope)*"
+.version-body > ul li,
+.version-body h4 + ul li,
+.version-body p + ul li {
+    position: relative;
+    list-style: none;
+    padding-left: 1.4rem;
+
+    &::before {
+        content: "●";
+        position: absolute;
+        left: 0;
+        top: 0.2em;
+        font-size: 0.55rem;
+        color: $tl-line;
+    }
+}
+
+// "Fixed" bullets — red pip
+.version-body ul li:has(> strong:first-child + em) {
+    // catches "- Fixed *(Scope)*" pattern
+}
+
+// Simpler approach: use data-content-based colour where possible via JS class,
+// but for pure CSS we target the *(Scope)* em pattern with adjacent sibling logic.
+// The best we can do without JS: just colour them all consistently.
+// Enhancement bullets get a green pip, Fixed get a warm amber pip.
+// We inject classes in the layout JS below via a second script pass.
+
+// highlight cards — bold title + Cloudinary image pairs
+.version-body p:has(> strong:only-child) + p > img {
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.2rem;
+    max-width: 100%;
+}
+
+// Divider line before "View original release email"
+.version-body hr {
+    border: none;
+    border-top: 1px solid $tl-line;
+    margin: 2rem 0 1rem;
+}
+
+// ── Sticky TOC sidebar ────────────────────────────────────────────────────────
+
+.version-toc {
+    width: 200px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 5rem;
+    max-height: calc(100vh - 8rem);
+    overflow-y: auto;
+    border-left: 2px solid $tl-line;
+    padding-left: 1rem;
+
+    @media (max-width: $v-break-toc) { display: none; }
+}
+
+.toc-label {
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #aaa;
+    margin-bottom: 0.6rem;
+}
+
+#toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.toc-h3 {
+    margin-bottom: 0.3rem;
+
+    a {
+        font-size: 0.78rem;
+        font-weight: 700;
+        color: $tl-accent;
+        text-decoration: none;
+        display: block;
+        padding: 0.18rem 0;
+        transition: color 0.15s ease;
+
+        &:hover, &.toc-active { color: darken($tl-accent, 10%); }
+        &.toc-active { font-weight: 800; }
+    }
+}
+
+.toc-h4 {
+    a {
+        font-size: 0.74rem;
+        color: #777;
+        text-decoration: none;
+        display: block;
+        padding: 0.12rem 0 0.12rem 0.75rem;
+        transition: color 0.15s ease;
+        border-left: 1px solid transparent;
+
+        &:hover { color: $tl-accent; }
+
+        &.toc-active {
+            color: $tl-accent;
+            border-left-color: $tl-accent;
+        }
+    }
+}
+
+// ─── Sidebar Polish ────────────────────────────────────────────────────────────
+
+// Active version link in the nav.
+// Use inset box-shadow instead of border-left so no layout width is added (prevents sidebar jump).
+// Avoid font-weight change so bold text reflow doesn't shift neighbouring items.
+.nav-list .nav-list-link.active {
+    color: $tl-accent;
+    box-shadow: inset 3px 0 0 $tl-accent;
+}
+
+// Hover state for all nav links
+.nav-list .nav-list-link:hover {
+    color: $tl-accent;
+    background-color: $tl-accent-pale;
+}
+
+// Version child items (nested under "Versions") — tighter & slightly smaller
+.nav-list-item .nav-list-item .nav-list-link {
+    font-size: 0.8rem;
+    padding-top: 0.18rem;
+    padding-bottom: 0.18rem;
+}
+
+// "Timeline" and "Versions" top-level items — subtle accent on active
+.nav-list > .nav-list-item > .nav-list-link.active {
+    font-weight: 700;
+    color: $tl-accent;
+}

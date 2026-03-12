@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+<div class="version-hero">
+  <div class="vh-left">
+    <span class="tl-badge vh-badge">{{ page.title | remove: "Version " }}</span>
+    {% if page.release_date %}
+      <span class="vh-date">{{ page.release_date }}</span>
+    {% endif %}
+  </div>
+  <a class="vh-back" href="{{ "/docs/timeline.html" | relative_url }}">&#8592; Timeline</a>
+</div>
+
+<div class="version-layout">
+  <div class="version-body">
+    {{ content }}
+  </div>
+  <aside class="version-toc" id="version-toc" aria-label="Page contents">
+    <div class="toc-label">On this page</div>
+    <ul id="toc-list"></ul>
+  </aside>
+</div>
+
+<script>
+(function () {
+  var body    = document.querySelector('.version-body');
+  var list    = document.getElementById('toc-list');
+  if (!body || !list) return;
+
+  var headings = body.querySelectorAll('h3, h4');
+  if (headings.length === 0) return;
+
+  headings.forEach(function (h, i) {
+    // Build a slug ID if one doesn't exist
+    if (!h.id) {
+      var slug = h.textContent
+        .toLowerCase()
+        .replace(/[^a-z0-9\s-]/g, '')
+        .trim()
+        .replace(/\s+/g, '-');
+      h.id = slug + '-' + i;
+    }
+
+    var li = document.createElement('li');
+    li.className = h.tagName === 'H3' ? 'toc-h3' : 'toc-h4';
+
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    // Strip the <u> tag text if present
+    a.textContent = h.textContent.trim();
+    li.appendChild(a);
+    list.appendChild(li);
+  });
+
+  // Highlight active TOC item on scroll
+  var tocLinks = list.querySelectorAll('a');
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        tocLinks.forEach(function (a) { a.classList.remove('toc-active'); });
+        var active = list.querySelector('a[href="#' + entry.target.id + '"]');
+        if (active) active.classList.add('toc-active');
+      }
+    });
+  }, { rootMargin: '0px 0px -70% 0px', threshold: 0 });
+
+  headings.forEach(function (h) { observer.observe(h); });
+})();
+</script>

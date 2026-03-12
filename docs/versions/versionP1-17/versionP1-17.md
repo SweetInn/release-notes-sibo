@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: version
 title: Version P1.17
 has_children: false
 parent: Versions
 nav_order: 941
+release_date: "Mar 26, 2025"
 ---
 
 

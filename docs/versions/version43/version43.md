@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: version
 title: Version 43
 has_children: true
 parent: Versions

@@ -12,22 +12,21 @@
 
     {% if year != current_year %}
       {% if current_year != "" %}
-        </div><!-- /.tl-year-group -->
+      </div><!-- /.tl-year-group -->
       {% endif %}
       <div class="tl-year-group">
-      <div class="tl-year-marker"><span>{{ year }}</span></div>
+        <div class="tl-year-marker"><span>{{ year }}</span></div>
       {% assign current_year = year %}
     {% endif %}
 
     {% assign side = index | modulo: 2 %}
     {% if side == 0 %}
-      {% assign card_class = "tl-card tl-left" %}
+      {% assign item_class = "tl-item tl-left" %}
     {% else %}
-      {% assign card_class = "tl-card tl-right" %}
+      {% assign item_class = "tl-item tl-right" %}
     {% endif %}
 
-    <div class="{{ card_class }}">
-      <div class="tl-dot"></div>
+    <div class="{{ item_class }}">
       <div class="tl-content">
         <div class="tl-card-header">
           <span class="tl-badge">{{ release.version }}</span>
@@ -42,12 +41,12 @@
   {% endfor %}
 
   {% if current_year != "" %}
-    </div><!-- /.tl-year-group -->
+  </div><!-- /.tl-year-group -->
   {% endif %}
 
   {% if legacy.size > 0 %}
     <div class="tl-legacy-section">
-      <div class="tl-legacy-header"><span>Legacy Versions (Pre-2024)</span></div>
+      <div class="tl-legacy-divider"><span>Legacy Versions (Pre-2024)</span></div>
       <div class="tl-legacy-grid">
         {% for release in legacy %}
           <div class="tl-legacy-card">

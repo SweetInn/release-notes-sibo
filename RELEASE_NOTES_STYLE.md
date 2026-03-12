@@ -220,3 +220,34 @@ nav_order: 1
 nav_exclude: true              # Hides from sidebar if standalone deep-dive
 ---
 ```
+
+---
+
+## Developer Notes — Site Customisation
+
+### Custom CSS
+All custom styles live in **`_sass/custom/custom.scss`**.
+
+This is the only file in `_sass/` that Just the Docs compiles into its output CSS. The import chain is:
+
+```
+gem: assets/css/just-the-docs-default.scss
+  → _includes/css/just-the-docs.scss.liquid
+  → _includes/css/custom.scss.liquid  ({% include css/custom.scss.liquid %})
+  → @import "./custom/custom"
+  → _sass/custom/custom.scss          ← your styles go here
+```
+
+Do **not** add styles to `_sass/custom.scss` or `_sass/custom/styles.scss` — these paths are not part of the import chain and will be silently ignored.
+
+### Release Timeline
+The `/docs/timeline.html` page is driven by `_data/releases.yml`. When adding a new version, the `add-release-note` skill automatically prepends a new entry to this file (Step 4c). Manual edits to the data file follow the same schema:
+
+```yaml
+- version: "P1.XX"
+  date: "YYYY-MM-DD"
+  display_date: "Mmm DD, YYYY"
+  url: "/docs/versions/versionP1-XX/versionP1-XX.html"
+  blurb: "One-sentence highlight"
+  legacy: false
+```

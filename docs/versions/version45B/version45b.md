@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: version
 title: Version 45B
 has_children: false
 parent: Versions
