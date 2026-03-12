@@ -30,3 +30,244 @@
     width: 100%;
     height: 100%;
 }
+
+// ─── Release Timeline ────────────────────────────────────────────────────────
+
+$tl-accent:      #5D750F;
+$tl-accent-pale: #eef2e0;
+$tl-line-color:  #d5dbbe;
+$tl-dot-size:    14px;
+$tl-card-width:  44%;
+$tl-gap:         2.5rem;
+$tl-breakpoint:  740px;
+
+.tl-wrapper {
+    position: relative;
+    padding: 1rem 0 2rem;
+}
+
+// Year group — provides the vertical center line
+.tl-year-group {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: $tl-line-color;
+        transform: translateX(-50%);
+    }
+
+    @media (max-width: #{$tl-breakpoint}) {
+        &::before {
+            left: 18px;
+        }
+    }
+}
+
+// Year marker badge
+.tl-year-marker {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0 1rem;
+    z-index: 1;
+
+    span {
+        background: $tl-accent;
+        color: #fff;
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        padding: 0.25rem 1rem;
+        border-radius: 20px;
+    }
+
+    @media (max-width: #{$tl-breakpoint}) {
+        justify-content: flex-start;
+        padding-left: 0;
+
+        span {
+            margin-left: 6px;
+        }
+    }
+}
+
+// Individual card
+.tl-card {
+    position: relative;
+    width: $tl-card-width;
+    margin-bottom: $tl-gap;
+
+    &.tl-left {
+        margin-left: 0;
+        margin-right: auto;
+        padding-right: calc(#{$tl-gap} + #{$tl-dot-size} / 2);
+        text-align: right;
+
+        .tl-dot {
+            right: calc(-#{$tl-dot-size} / 2);
+            left: auto;
+        }
+
+        .tl-content {
+            text-align: right;
+        }
+
+        .tl-card-header {
+            flex-direction: row-reverse;
+        }
+    }
+
+    &.tl-right {
+        margin-left: auto;
+        margin-right: 0;
+        padding-left: calc(#{$tl-gap} + #{$tl-dot-size} / 2);
+        text-align: left;
+
+        .tl-dot {
+            left: calc(-#{$tl-dot-size} / 2);
+            right: auto;
+        }
+    }
+
+    @media (max-width: #{$tl-breakpoint}) {
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: calc(18px + #{$tl-gap}) !important;
+        padding-right: 0 !important;
+        text-align: left !important;
+
+        .tl-dot {
+            left: calc(18px - #{$tl-dot-size} / 2) !important;
+            right: auto !important;
+        }
+
+        .tl-content { text-align: left !important; }
+        .tl-card-header { flex-direction: row !important; }
+    }
+}
+
+// Connector dot
+.tl-dot {
+    position: absolute;
+    top: 1rem;
+    width: $tl-dot-size;
+    height: $tl-dot-size;
+    background: $tl-accent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px $tl-accent;
+    z-index: 1;
+}
+
+// Card content box
+.tl-content {
+    background: #fff;
+    border: 1px solid $tl-line-color;
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: box-shadow 0.2s ease;
+
+    &:hover {
+        box-shadow: 0 4px 16px rgba(93, 117, 15, 0.15);
+        border-color: $tl-accent;
+    }
+}
+
+.tl-card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.tl-badge {
+    display: inline-block;
+    background: $tl-accent;
+    color: #fff;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 0.18rem 0.65rem;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+.tl-date {
+    font-size: 0.78rem;
+    color: #888;
+    white-space: nowrap;
+}
+
+.tl-blurb {
+    font-size: 0.9rem;
+    color: #444;
+    margin: 0 0 0.75rem;
+    line-height: 1.5;
+}
+
+.tl-link {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: $tl-accent;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// ─── Legacy section ──────────────────────────────────────────────────────────
+
+.tl-legacy-section {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 2px dashed $tl-line-color;
+}
+
+.tl-legacy-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+
+    span {
+        background: #f0f0f0;
+        color: #888;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        padding: 0.25rem 1rem;
+        border-radius: 20px;
+        text-transform: uppercase;
+    }
+}
+
+.tl-legacy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.tl-legacy-card {
+    background: #fafafa;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    padding: 0.9rem 1rem;
+
+    .tl-blurb {
+        font-size: 0.82rem;
+        color: #666;
+        margin: 0.4rem 0 0.6rem;
+    }
+}
+
+.tl-badge-legacy {
+    background: #aaa;
+}
