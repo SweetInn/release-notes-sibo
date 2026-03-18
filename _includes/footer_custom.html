@@ -12,3 +12,34 @@
     <a href="/"><img src="https://sweetinn.github.io/release-notes-sibo/assets/images/logo-sibo-back-office.png" height="40" width="120"></a> 
     <p>©2023 sibo. All rights Reserved</p> 
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var patchedHref = '{{ "/docs/timeline.html" | relative_url }}';
+  var versionsLink = document.querySelector('a.nav-list-link[href*="versions/versions"]');
+
+  function expandVersionsTree() {
+    var versionsItem = versionsLink ? versionsLink.closest('.nav-list-item') : null;
+    var expander = versionsItem ? versionsItem.querySelector('.nav-list-expander') : null;
+    if (expander) expander.click();
+  }
+
+  if (versionsLink) {
+    versionsLink.href = patchedHref;
+
+    if (window.location.pathname === patchedHref && sessionStorage.getItem('expandVersions') === '1') {
+      sessionStorage.removeItem('expandVersions');
+      expandVersionsTree();
+    }
+
+    versionsLink.addEventListener('click', function(e) {
+      if (window.location.pathname === patchedHref) {
+        e.preventDefault();
+        expandVersionsTree();
+      } else {
+        sessionStorage.setItem('expandVersions', '1');
+      }
+    });
+  }
+});
+</script>
