@@ -5,6 +5,4 @@ has_children: true
 nav_order: 3
 ---
 
-
-# Versions
-
+<script>window.location.replace("{{ '/docs/timeline.html' | relative_url }}");</script>

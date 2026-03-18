@@ -15,7 +15,7 @@ Browse by version using the sidebar, or use the search bar to find a specific fe
 
 ---
 
-[Browse Versions]({{ "/docs/versions/versions.html" | relative_url }}){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Browse Versions]({{ "/docs/timeline.html" | relative_url }}){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ---
 
