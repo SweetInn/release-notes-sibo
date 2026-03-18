@@ -12,7 +12,7 @@ release_date: "Mar 19, 2026"
 
 **Released:** Mar 19, 2026
 
-This release introduces Truvi as an alternative to the security deposit in the Online Check-In, upgrades document scanning to an AI-based OCR engine, and includes several improvements and bug fixes across SIBO and the guest experience.
+This release introduces Truvi as an alternative to the security deposit in the Online Check-In, launches the Intelligence Hub in SIBO for centralized access to all BI dashboards, upgrades document scanning to an AI-based OCR engine, and includes several improvements and bug fixes across SIBO and the guest experience.
 
 **Truvi as Alternative to Deposit**
 ![Truvi as Alternative to Deposit](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/Release%20Notes/P1.28%285%29/truvi_thumbnail_1.png)
@@ -37,6 +37,9 @@ This feature requires activation and is subject to an additional fee. Contact R&
 
 **Member Since Date in Booking Details:**
 - **Guest loyalty visibility** — Staff can now see the date & time a guest first became a member, displayed in Booking Details next to their membership level. This gives the team quick visibility into guest loyalty history without leaving the booking view.
+
+**Intelligence Hub:**
+- **Centralized BI dashboards** — A new Intelligence Hub is now available in SIBO menu, giving staff access to all BI dashboards covering Revenue, Operations, Sales, and Quality in one place. Each staff member can request access to the dashboards they need directly through the hub.
 
 #### <u>Enhancements & Bug Fixes</u>
 
