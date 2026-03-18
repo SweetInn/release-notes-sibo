@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Release Notes - March 2026 (Version 28.5)</title>
+  </head>
+  <body style="margin:0; padding:0; font-family: Arial, sans-serif; color:#333;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+      <tr>
+        <td align="center">
+          <table width="600" border="0" cellspacing="0" cellpadding="0" style="margin:0 auto; text-align:left;">
+
+            <!-- Header -->
+            <tr>
+              <td style="padding: 20px;">
+                <h1 style="margin:0; font-size:24px; color:#111;">
+                  Release Notes - March 2026
+                  <span style="color:#4F5356; font-size:16px; line-height:1.6;">(Version 28.5)</span>
+                </h1>
+                <h3 style="color:#003746; font-size:16px; line-height:1.6; margin:16px 0 0 0;">Dear Sweett Team,</h3>
+                <p style="color:#4F5356; font-size:16px; line-height:1.6; margin:8px 0 0 0;">
+                  In this release:
+                  <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                    <li>Hosts can now offer <strong style="color:#003746;">Truvi</strong> as a deposit alternative in the Online Check-In, an external damage insurance option that provides actual coverage for damages.</li>
+                    <li><strong style="color:#003746;">AI-powered document OCR</strong> replaces legacy scanning for faster, more accurate ID verification.</li>
+                    <li>Staff can now see the <strong style="color:#003746;">date &amp; time a guest became a member</strong>, visible directly in Booking Details.</li>
+                  </ul>
+                </p>
+              </td>
+            </tr>
+
+            <!-- Highlight card: Truvi as Alternative to Deposit -->
+            <tr>
+              <td style="padding:12px 14px; background-color:#e8f4f7; border-left:4px solid #003746;">
+                <strong style="color:#003746; font-size:15px;">Truvi as Alternative to Deposit</strong><br/>
+                <span style="color:#4F5356; font-size:14px; line-height:1.5;">Hosts can now offer Truvi, an external damage insurance provider, as an alternative to a security deposit in the Online Check-In. Unlike the internal Damage Protection, Truvi provides actual insurance coverage for damages through an external insurer. This feature requires activation and is subject to an additional fee.</span>
+                <div style="margin:12px 0;">
+                  <!-- Image: Truvi as Alternative to Deposit - replace href and img src with your image URL -->
+                  <!-- TODO: href is full URL, and src cloudinary transformation = q_auto,f_auto,w_487,c_fit-->
+                  <a href="https://res.cloudinary.com/sweetinn/image/upload/Release%20Notes/P1.28%285%29/truvi_1.png" target="_blank">
+                    <img src="https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto,w_487,c_fit/Release%20Notes/P1.28%285%29/truvi_thumbnail_1.png" alt="Truvi as Alternative to Deposit" style="display:block; max-width:100%; height:auto; border-radius:8px;" />
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr><td style="height:8px;"></td></tr>
+
+            <!-- Website & App section -->
+            <tr>
+              <td style="padding: 20px;">
+                <h2 style="color:#003746; margin-top:0;">Website &amp; App</h2>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Online Check-In</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">Truvi as Alternative to Deposit</strong><br/>
+                    Hosts can now offer Truvi, an external damage insurance provider, as an alternative to a security deposit in the Online Check-In. Unlike the internal Damage Protection, Truvi provides actual insurance coverage for damages through an external insurer.<br/>
+                    <span style="font-size:13px; color:#888;">This feature requires activation and is subject to an additional fee. Contact R&amp;D or your Partnership Manager to get started.</span>
+                  </li>
+                  <li style="margin-top:8px;">
+                    <strong style="color:#003746;">AI-based Document OCR</strong><br/>
+                    The document scanning (used in Online Check-In and SIBO) has been upgraded from legacy machine learning OCR to an AI-based engine, improving the accuracy and reliability of ID verification.
+                  </li>
+                  <li style="margin-top:8px;">
+                    <strong style="color:#003746;">Remove Default ECI/LCO Hours from OCI</strong><br/>
+                    Early check-in and late check-out clock pickers in the OCI now start empty, requiring guests to make an active selection. This drives ECI/LCO upsell opportunities and distributes check-in and check-out times more evenly across the day.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+
+            <!-- SIBO section -->
+            <tr>
+              <td style="padding: 20px;">
+                <h2 style="color:#003746; margin-top:0;">SIBO</h2>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Guest Loyalty</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">Member Since Date in Booking Details</strong><br/>
+                    Staff can now see the date &amp; time a guest first became a member, displayed in Booking Details next to their membership level. This gives the team quick visibility into guest loyalty history without leaving the booking view.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+
+            <!-- Enhancements & Bug Fixes section -->
+            <tr>
+              <td style="padding: 20px;">
+                <h2 style="color:#003746;">Enhancements &amp; Bug Fixes</h2>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px;">
+
+                  <!-- Bug Fixes: SIBO -->
+                  <li>
+                    <span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Quote Guest Count Always Sent as 1</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>
+                    When creating a quote, the guest count selected by the agent was ignored and always sent as 1. The selected value is now correctly passed.
+                  </li>
+
+                  <li style="margin-top:8px;">
+                    <span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Invoice Failure for Altered Bookings</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>
+                    Invoices failed to generate for bookings that were relocated or altered after the original reservation, even when breakfast was included. This has been resolved.
+                  </li>
+
+                  <li style="margin-top:8px;">
+                    <span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Passwords Return "Insufficient permissions"</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>
+                    Agents with the correct password access level were unable to copy certain passwords and received an "Insufficient permissions" error. This has been fixed.
+                  </li>
+
+                  <!-- Bug Fixes: Website/App -->
+                  <li style="margin-top:8px;">
+                    <span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Member Discount Badge Incorrectly Shown</strong><span style="font-size:12px; color:#FFF; background-color:#007e9d; padding:2px 6px; border-radius:4px; margin-left:6px;">Website/App</span><br/>
+                    The member discount badge and member price toggle were displayed on the property, unit, and booking pages even when no member pricing applied. Both are now hidden when no member price is returned.
+                  </li>
+
+                  <li style="margin-top:8px;">
+                    <span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Walking Time to Lobby Shows Wrong Distance</strong><span style="font-size:12px; color:#FFF; background-color:#007e9d; padding:2px 6px; border-radius:4px; margin-left:6px;">Website/App</span><br/>
+                    On the First Day Experience screen, guests were shown an incorrect walking time from their apartment to the lobby due to outdated distance data. This has been corrected.
+                  </li>
+
+                  <li style="margin-top:8px;">
+                    <span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Membership Teaser Reappears After Skipping</strong><span style="font-size:12px; color:#FFF; background-color:#007e9d; padding:2px 6px; border-radius:4px; margin-left:6px;">Website/App</span><br/>
+                    When a guest chose to continue without the member price, the membership teaser reappeared on the payment confirmation page. It now remains hidden consistently.
+                  </li>
+
+                  <li style="margin-top:8px;">
+                    <span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Damage Protection Routed to Truvi</strong><span style="font-size:12px; color:#FFF; background-color:#007e9d; padding:2px 6px; border-radius:4px; margin-left:6px;">Website/App</span><br/>
+                    When a guest ordered internal Damage Protection, the system incorrectly attempted to create a Truvi coverage request, causing an error.
+                  </li>
+
+                  <li style="margin-top:8px;">
+                    <span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">OCI Returns to Protection Step After PayPal</strong><span style="font-size:12px; color:#FFF; background-color:#007e9d; padding:2px 6px; border-radius:4px; margin-left:6px;">Website/App</span><br/>
+                    After authorizing a PayPal payment in the Online Check-In, guests were returned to the Protection step instead of progressing to House Rules. The flow now advances correctly.
+                  </li>
+
+                  <li style="margin-top:8px;">
+                    <span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Mandatory Payments Skipped in OCI</strong><span style="font-size:12px; color:#FFF; background-color:#007e9d; padding:2px 6px; border-radius:4px; margin-left:6px;">Website/App</span><br/>
+                    When Damage Protection was offered as an additional service and the guest declined, the entire payments step was skipped, leaving mandatory charges such as City Tax and Cleaning Fee uncollected. This has been fixed.
+                  </li>
+
+                </ul>
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td style="padding: 20px;">
+                <p style="color:#4F5356; font-size:16px; line-height:1.6; margin: 8px 0 0 0;">
+                  For training on these updates, please reach out to <a href="https://calendar.google.com/appointments/schedules/AcZssZ3pJgd-AOP4NhfZAN8QF2ZzyhzngzELjtlU_woppLtilKbZ14MTErwqj5v2OodyjpwI66NcY_OH" style="color:#003746;" target="_blank">schedule a session</a>.<br/>
+                  For technical support, contact <a href="mailto:techsupport@sweett.com" style="color:#003746;">Tech-Support</a>.<br/>
+                  A full history of all version release notes is available <a href="https://release-notes.sweetinn-app.net/release-notes-sibo" style="color:#003746; text-decoration:underline;" target="_blank">here</a>.<br/><br/>
+                </p>
+              </td>
+            </tr>
+
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

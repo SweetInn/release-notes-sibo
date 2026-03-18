@@ -1,4 +1,11 @@
 releases:
+  - version: "P1.28(5)"
+    date: "2026-03-19"
+    display_date: "Mar 19, 2026"
+    url: "/docs/versions/versionP1-28-5/versionP1-28-5.html"
+    blurb: "Truvi as an external damage insurance alternative to the security deposit in Online Check-In"
+    legacy: false
+
   - version: "P1.28(1)"
     date: "2026-03-12"
     display_date: "Mar 12, 2026"
