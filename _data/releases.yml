@@ -1,4 +1,11 @@
 releases:
+  - version: "P1.28.7+29"
+    date: "2026-04-28"
+    display_date: "Apr 28, 2026"
+    url: "/docs/versions/versionP1-28-7-29/versionP1-28-7-29.html"
+    blurb: "SIBO Mobile App launches with recurring tasks, offline pay-link reporting, and alteration extensions."
+    legacy: false
+
   - version: "P1.28(5)"
     date: "2026-03-19"
     display_date: "Mar 19, 2026"
