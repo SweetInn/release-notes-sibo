@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Release Notes - May 2026 (Version 29.2)</title>
+  </head>
+  <body style="margin:0; padding:0; font-family: Arial, sans-serif; color:#333;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+      <tr>
+        <td align="center">
+          <table width="600" border="0" cellspacing="0" cellpadding="0" style="margin:0 auto; text-align:left;">
+
+            <!-- HEADER -->
+            <tr>
+              <td style="padding: 20px;">
+                <h1 style="margin:0; font-size:24px; color:#111;">
+                  Release Notes - May 2026
+                  <span style="color:#4F5356; font-size:16px; line-height:1.6;">(Version 29.2)</span>
+                </h1>
+                <h3 style="color:#003746; font-size:16px; line-height:1.6; margin:16px 0 0 0;">Dear Sweett Team,</h3>
+                <p style="color:#4F5356; font-size:16px; line-height:1.6; margin:8px 0 0 0;">
+                  In this release:
+                  <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                    <li>The SIBO dashboard now shows <strong style="color:#003746;">online check-in (OCI) completion rate</strong> and <strong style="color:#003746;">digital key readiness</strong> per booking, with one-click navigation to outstanding cases</li>
+                    <li style="margin-top:4px;">Full <strong style="color:#003746;">Milan and Paris city guides</strong> are now available inside the Guidebooks tab in each booking, with filters to quickly find the right information without leaving SIBO. Milan and Paris teams, no more all-in-one Google Sheets 🙂</li>
+                    <li style="margin-top:4px;">Airbnb guests can now <strong style="color:#003746;">modify their booking directly from the booking page</strong>, including early check-in requests, late checkout extensions before arrival, and stay extensions during the stay. The system automatically submits the alteration to Airbnb for guest approval. The same extension link is also available in the booking services view, with no Ops intervention required anymore.</li>
+                    <li style="margin-top:4px;">New <strong style="color:#003746;">extension availability pre-validation tool</strong>, allowing staff to verify extension eligibility before sending an offer, avoiding situations where guests receive extension links for unavailable dates.</li>
+                    <li style="margin-top:4px;">Operators are now warned when a task is scheduled <strong style="color:#003746;">outside the guest's agreed access window</strong>, helping teams better align with guest preferences.</li>
+                    <li style="margin-top:4px;">In the <strong style="color:#003746;">Cleaning Tool Planner</strong>, cleaning cards now display when maintenance is scheduled at the same property, making it safer and easier to schedule cleaning tasks. In addition, the <strong style="color:#003746;">Auto-Planner</strong> ensures cleaning tasks are placed after the maintenance time slot ends when relevant.</li>
+                  </ul>
+                </p>
+              </td>
+            </tr>
+
+            <!-- HIGHLIGHT CARD 1: SIBO Dashboard -->
+            <tr>
+              <td style="padding:12px 14px; background-color:#e8f4f7; border-left:4px solid #003746;">
+                <strong style="color:#003746; font-size:15px;">Online Check-In &amp; Digital Key Status on Dashboard</strong><br/>
+                <span style="color:#4F5356; font-size:14px; line-height:1.5;">The SIBO dashboard now shows two new readiness columns for each booking: the percentage of guests who have completed online check-in, and the percentage with a working digital key. Clicking either column opens a filtered list of the bookings that still need attention — saving agents the manual work of preparing for arrivals every day.</span>
+                <div style="margin:8px 0 0 0; border-radius:8px; overflow:hidden; border:3px solid #003746;">
+                  <a href="https://res.cloudinary.com/sweetinn/image/upload/Release%20Notes/P1.29%282%29/sibo_dahsboard_ociCompletion_locksReady_1.png" target="_blank" style="display:block; text-decoration:none;">
+                    <img src="https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto,w_572,c_fit/Release%20Notes/P1.29%282%29/sibo_dahsboard_ociCompletion_locksReady_1.png" alt="OCI Completion &amp; Digital Key Status on Dashboard" style="display:block; width:100%; height:auto; border-radius:0;" />
+                    <div style="background-color:#003746; padding:8px 12px; border-radius:0; text-align:center;">
+                      <span style="font-size:13px; color:#fff; font-family:Arial,sans-serif;">🔍 Click to view full image</span>
+                    </div>
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr><td style="height:8px;"></td></tr>
+
+            <!-- HIGHLIGHT CARD 2: Guidebooks -->
+            <tr>
+              <td style="padding:12px 14px; background-color:#e8f4f7; border-left:4px solid #003746;">
+                <strong style="color:#003746; font-size:15px;">City Guidebooks in Booking Details</strong><br/>
+                <span style="color:#4F5356; font-size:14px; line-height:1.5;">The Guidebooks tab inside each booking now contains the full Milan and Paris all-in-one guides, imported directly from the city's reference sheets. Agents can use the built-in filter to quickly locate the needed information without leaving SIBO.</span>
+                <div style="margin:8px 0 0 0; border-radius:8px; overflow:hidden; border:3px solid #003746;">
+                  <a href="https://res.cloudinary.com/sweetinn/image/upload/Release%20Notes/P1.29%282%29/guidebooks_1.png" target="_blank" style="display:block; text-decoration:none;">
+                    <img src="https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto,w_572,h_380,c_fill,g_north/Release%20Notes/P1.29%282%29/guidebooks_1.png" alt="City Guidebooks in Booking Details" style="display:block; width:100%; height:auto; border-radius:0;" />
+                    <div style="background-color:#003746; padding:8px 12px; border-radius:0; text-align:center;">
+                      <span style="font-size:13px; color:#fff; font-family:Arial,sans-serif;">🔍 Click to view full image</span>
+                    </div>
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr><td style="height:8px;"></td></tr>
+
+            <!-- HIGHLIGHT CARD 3: Airbnb Extension Link -->
+            <tr>
+              <td style="padding:12px 14px; background-color:#e8f4f7; border-left:4px solid #003746;">
+                <strong style="color:#003746; font-size:15px;">Extension Link via Airbnb</strong><br/>
+                <span style="color:#4F5356; font-size:14px; line-height:1.5;">Guests with an Airbnb booking can now extend their stay directly from the extension link or their booking dashboard. Choosing new dates, the system automatically submits the alteration request to Airbnb, and the guest approves and pays there. No more manual coordination through the communication center.</span>
+                <div style="margin:8px 0 0 0; border-radius:8px; overflow:hidden; border:3px solid #003746;">
+                  <a href="https://res.cloudinary.com/sweetinn/image/upload/Release%20Notes/P1.29%282%29/airbnb_extension_link_1.png" target="_blank" style="display:block; text-decoration:none;">
+                    <img src="https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto,w_572,c_fit/Release%20Notes/P1.29%282%29/airbnb_extension_link_1.png" alt="Extension Link via Airbnb" style="display:block; width:100%; height:auto; border-radius:0;" />
+                    <div style="background-color:#003746; padding:8px 12px; border-radius:0; text-align:center;">
+                      <span style="font-size:13px; color:#fff; font-family:Arial,sans-serif;">🔍 Click to view full image</span>
+                    </div>
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr><td style="height:8px;"></td></tr>
+
+            <!-- HIGHLIGHT CARD 4: Extension Pre-Validation -->
+            <tr>
+              <td style="padding:12px 14px; background-color:#e8f4f7; border-left:4px solid #003746;">
+                <strong style="color:#003746; font-size:15px;">Extension Availability Pre-Check</strong><br/>
+                <span style="color:#4F5356; font-size:14px; line-height:1.5;">Before sharing an extension offer with a guest, operators can now verify whether the extension dates are available and the booking is eligible — directly from the services links appearing in the booking details screen in SIBO. Clear availability indicators and dates are shown, so staff can confidently offer extensions without back-and-forth.</span>
+                <div style="margin:8px 0 0 0; border-radius:8px; overflow:hidden; border:3px solid #003746;">
+                  <a href="https://res.cloudinary.com/sweetinn/image/upload/Release%20Notes/P1.29%282%29/extension_link_with_availability_1.png" target="_blank" style="display:block; text-decoration:none;">
+                    <img src="https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto,w_572,h_300,c_fill,g_auto/Release%20Notes/P1.29%282%29/extension_link_with_availability_1.png" alt="Extension Availability Pre-Check" style="display:block; width:100%; height:auto; border-radius:0;" />
+                    <div style="background-color:#003746; padding:8px 12px; border-radius:0; text-align:center;">
+                      <span style="font-size:13px; color:#fff; font-family:Arial,sans-serif;">🔍 Click to view full image</span>
+                    </div>
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr><td style="height:8px;"></td></tr>
+
+            <!-- HIGHLIGHT CARD 5: Operator Warning Access Window -->
+            <tr>
+              <td style="padding:12px 14px; background-color:#e8f4f7; border-left:4px solid #003746;">
+                <strong style="color:#003746; font-size:15px;">Warning When Scheduling Outside Guest's Access Window</strong><br/>
+                <span style="color:#4F5356; font-size:14px; line-height:1.5;">When an operator schedules or reschedules a maintenance task linked to a guest report, a warning now appears if the selected time falls outside the window the guest agreed to. The operator can go back and pick a different time, or proceed intentionally — avoiding visits at times the guest never approved, and ensuring the maintenance team's access code is valid when they arrive.</span>
+                <div style="margin:8px 0 0 0; border-radius:8px; overflow:hidden; border:3px solid #003746;">
+                  <!-- Image: Warning When Scheduling Outside Guest's Access Window - replace href and img src with your image URL -->
+                  <!-- TODO: href is full URL, and src cloudinary transformation = q_auto,f_auto,w_487,c_fit-->
+                    <a href="https://res.cloudinary.com/sweetinn/image/upload/Release%20Notes/P1.29%282%29/guest_access_window_warning_1.png" target="_blank" style="display:block; text-decoration:none;">
+                    <img src="https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto,w_572,c_fit/Release%20Notes/P1.29%282%29/guest_access_window_warning_1.png" alt="Warning When Scheduling Outside Guest's Access Window" style="display:block; width:100%; height:auto; border-radius:0;" />
+                    <div style="background-color:#003746; padding:8px 12px; border-radius:0; text-align:center;">
+                      <span style="font-size:13px; color:#fff; font-family:Arial,sans-serif;">🔍 Click to view full image</span>
+                    </div>
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr><td style="height:8px;"></td></tr>
+
+            <!-- HIGHLIGHT CARD 6: Maintenance Indicator on Cleaning Cards -->
+            <tr>
+              <td style="padding:12px 14px; background-color:#e8f4f7; border-left:4px solid #003746;">
+                <strong style="color:#003746; font-size:15px;">Maintenance Visibility &amp; Auto-Scheduling in the Cleaning Planner</strong><br/>
+                <span style="color:#4F5356; font-size:14px; line-height:1.5;">When maintenance is scheduled at the same property on the same cleaning day, a visual indicator now appears on the cleaning card in the Planner. The Auto-Planner also accounts for this, automatically placing the cleaning after the maintenance time slot ends.</span>
+                <div style="margin:8px 0 0 0; border-radius:8px; overflow:hidden; border:3px solid #003746;">
+                  <!-- Image: Maintenance Indicator on Cleaning Cards - replace href and img src with your image URL -->
+                  <!-- TODO: href is full URL, and src cloudinary transformation = q_auto,f_auto,w_487,c_fit-->
+                    <a href="https://res.cloudinary.com/sweetinn/image/upload/Release%20Notes/P1.29%282%29/clenaing_planner_maintenance_tasks_display_1.png" target="_blank" style="display:block; text-decoration:none;">
+                    <img src="https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto,w_572,c_fit/Release%20Notes/P1.29%282%29/clenaing_planner_maintenance_tasks_display_1.png" alt="Maintenance Indicator on Cleaning Cards" style="display:block; width:100%; height:auto; border-radius:0;" />
+                    <div style="background-color:#003746; padding:8px 12px; border-radius:0; text-align:center;">
+                      <span style="font-size:13px; color:#fff; font-family:Arial,sans-serif;">🔍 Click to view full image</span>
+                    </div>
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr><td style="height:8px;"></td></tr>
+
+            <!-- WEBSITE & APP SECTION -->
+            <tr>
+              <td style="padding: 20px;">
+                <h2 style="color:#003746; margin-top:0;">Website &amp; App</h2>
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Direct Sales &amp; Extensions</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li><strong style="color:#003746;">Extension Link via Airbnb</strong><br/>Guests with an Airbnb booking can now extend their stay directly from the extension link or their booking dashboard. Choosing new dates, the system automatically submits the alteration request to Airbnb, and the guest approves and pays there. No more manual coordination through the communication center.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <!-- SIBO SECTION -->
+            <tr>
+              <td style="padding: 20px;">
+                <h2 style="color:#003746; margin-top:0;">SIBO</h2>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Direct Sales</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li><strong style="color:#003746;">Extension Availability Pre-Check</strong><br/>Before sharing an extension offer with a guest, operators can verify whether the extension dates are available and the booking is eligible — directly from the services links appearing in the booking details screen in SIBO. Clear availability indicators and dates are shown, so staff can confidently offer extensions without back-and-forth.</li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; margin-top:16px; text-decoration: underline;">Task Management</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li><strong style="color:#003746;">Warning When Scheduling Outside Guest's Access Window</strong><br/>When an operator schedules or reschedules a maintenance task linked to a guest report, a warning now appears if the selected time falls outside the window the guest agreed to. The operator can go back and pick a different time, or proceed intentionally — avoiding visits at times the guest never approved, and ensuring the maintenance team's access code is valid when they arrive.</li>
+                  <li style="margin-top:8px;"><strong style="color:#003746;">Maintenance Visibility &amp; Auto-Scheduling in the Cleaning Planner</strong><br/>When maintenance is scheduled at the same property on the same cleaning day, a visual indicator now appears on the cleaning card in the Planner. The Auto-Planner also accounts for this, automatically placing the cleaning after the maintenance time slot ends.</li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; margin-top:16px; text-decoration: underline;">Dashboard &amp; Insights</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li><strong style="color:#003746;">Online Check-In &amp; Digital Key Status on Dashboard</strong><br/>The SIBO dashboard now shows two new readiness columns for each booking: the percentage of guests who have completed online check-in, and the percentage with a working digital key. Clicking either column opens a filtered list of the bookings that still need attention — saving agents the manual work of preparing for arrivals every day.</li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; margin-top:16px; text-decoration: underline;">Guest Services</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li><strong style="color:#003746;">City Guidebooks in Booking Details</strong><br/>The Guidebooks tab inside each booking now contains the full Milan and Paris all-in-one guides, imported directly from the city's reference sheets. Agents can use the built-in filter to quickly locate the needed information without leaving SIBO.</li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; margin-top:16px; text-decoration: underline;">Reports</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li><strong style="color:#003746;">Building Filter Now Includes Property Reports</strong><br/>When filtering the Reports screen by building, results now include reports filed against individual properties within that building. This gives a fuller picture of open issues across a building in one view.</li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; margin-top:16px; text-decoration: underline;">Multi-Calendar</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li><strong style="color:#003746;">All Unit Rows Now Load Correctly on First View</strong><br/>In the Multi-Calendar view, some single-unit property rows were not visible when the page first loaded — they only appeared after scrolling. All units now appear correctly on the initial load.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <!-- ENHANCEMENTS & BUG FIXES -->
+            <tr>
+              <td style="padding: 20px;">
+                <h2 style="color:#003746;">Enhancements &amp; Bug Fixes</h2>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px;">
+
+                  <!-- Enhancements -->
+                  <li><span style="font-size:12px; color:#FFF; background-color:#003746; padding:2px 6px; border-radius:4px;">Enhancement</span> <strong style="color:#003746;">Task Overflow Warning in Organizer</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>When reordering tasks in the Task Organizer would push one or more tasks past midnight to the following day, operators now see a clear warning before the change is applied. This prevents tasks from silently moving to an unexpected date.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#003746; padding:2px 6px; border-radius:4px;">Enhancement</span> <strong style="color:#003746;">Smart Lock Identity Reuse Across Tasks</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>The system now reuses a single smart lock identity for each cleaner or maintenance worker across all their tasks at the same property, instead of creating a new one for every task. Access codes remain consistent as the workload grows, and subscription usage stays lean.</li>
+
+                  <!-- Bugs -->
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Breakfast Pricing After Booking Extension</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>When a booking that includes a breakfast service was extended by one or more nights, the remaining balance was calculated incorrectly — the full breakfast cost was deducted for all nights instead of adding only the cost for the newly added night. The remaining amount now reflects what the guest actually owes.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Damage Protection Charged Twice in Multiple Tabs</strong><span style="font-size:12px; color:#FFF; background-color:#007e9d; padding:2px 6px; border-radius:4px; margin-left:6px;">Website/App</span><br/>If a guest had the online check-in open in more than one browser tab at the same time, they could advance through the Damage Protection step in each tab and be charged twice. The booking now allows only one Damage Protection addition per session.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Past-Date Bookings Accepted on Website</strong><span style="font-size:12px; color:#FFF; background-color:#007e9d; padding:2px 6px; border-radius:4px; margin-left:6px;">Website/App</span><br/>Guests could complete a booking on the website using past check-in or check-out dates because the system was incorrectly treating those dates as available. Bookings with past dates are now rejected at checkout.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Delivery Tasks Lost After In-Stay Relocation</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>When a guest was moved to a different property mid-stay, any pending delivery tasks (such as a baby high chair or linen delivery) were incorrectly cancelled instead of being transferred to the new booking. Operations teams could miss fulfilling those requests as a result. Pending deliveries are now carried over to the relocated booking.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Expired Damage Protection Still Charged</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>When a Damage Protection task expired while a guest was partway through online check-in, completing the payment without refreshing the page still included the expired task in the total. This caused the booking to show incorrect charges or a negative remaining balance. The pricing now reflects only active, valid tasks.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Locked Task Status Could Be Reverted</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>Tasks that had reached a final locked status — such as Pending Payment or Expired — could still be manually changed back to earlier statuses using the Task Table View. This risked corrupting financial records tied to those tasks. These statuses are now treated as final and cannot be manually reversed.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Lock Deletion Triggered Without an Existing Code</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>When a future booking's occupancy status was manually set to Checked Out, the system incorrectly sent a request to delete a smart lock code — even when no code had ever been created for that booking. This created a corrupt record that caused smart lock code generation to fail as the guest's arrival approached.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Duplicate Smart Lock PIN for Guests</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>In rare cases where two system events fired at the same moment for the same booking, the smart lock system created two separate access codes for the guest. This could result in one room lock not recognising the guest's PIN. The system now prevents duplicate code creation for the same booking.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Blank Channel Names in Unit Pricing</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>Some channels in the unit cleaning prices configuration (such as Agoda, Marriott) appeared as blank rows because their display names were missing. The list of channels shown there also differed from the one in the Property Pricing page, causing inconsistent configuration options for the same property. Both issues have been corrected.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Reassignment Didn't Update Lock Access</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>When a cleaning or maintenance task was reassigned to a different team member, the original assignee's smart lock access was not removed and the new assignee received no access at all. Each team member now receives the correct access when a task is assigned or reassigned to them.</li>
+
+
+                </ul>
+              </td>
+            </tr>
+
+            <!-- FOOTER -->
+            <tr>
+              <td style="padding: 20px;">
+                <p style="color:#4F5356; font-size:16px; line-height:1.6; margin: 8px 0 0 0;">
+                  For technical support, contact <a href="mailto:techsupport@sweett.com" style="color:#003746;">Tech-Support</a>.<br/>
+                  A full history of all version release notes is available <a href="https://release-notes.sweetinn-app.net/release-notes-sibo" style="color:#003746; text-decoration:underline;" target="_blank">here</a>.<br/><br/>
+                </p>
+              </td>
+            </tr>
+
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

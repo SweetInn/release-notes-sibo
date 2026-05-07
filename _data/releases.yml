@@ -1,4 +1,11 @@
 releases:
+  - version: "P1.29(2)"
+    date: "2026-05-06"
+    display_date: "May 06, 2026"
+    url: "/docs/versions/versionP1-29-2/versionP1-29-2.html"
+    blurb: "Airbnb guests can now extend their stay directly from the booking page with automated Airbnb alteration submission."
+    legacy: false
+
   - version: "P1.28.7+29"
     date: "2026-04-28"
     display_date: "Apr 28, 2026"
