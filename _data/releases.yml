@@ -1,4 +1,11 @@
 releases:
+  - version: "P1.30+36"
+    date: "2026-05-24"
+    display_date: "May 24, 2026"
+    url: "/docs/versions/versionP1-30-36/versionP1-30-36.html"
+    blurb: "Redesigned city and destination pages for better guest discovery and booking conversion."
+    legacy: false
+
   - version: "P1.29(2)"
     date: "2026-05-06"
     display_date: "May 06, 2026"
