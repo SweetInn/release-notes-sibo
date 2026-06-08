@@ -1,4 +1,11 @@
 releases:
+  - version: "P1.38"
+    date: "2026-06-07"
+    display_date: "Jun 07, 2026"
+    url: "/docs/versions/versionP1-38/versionP1-38.html"
+    blurb: "The all-new native SIBO App My Tasks is live for cleaners and maintenance technicians."
+    legacy: false
+
   - version: "P1.30+36"
     date: "2026-05-24"
     display_date: "May 24, 2026"
