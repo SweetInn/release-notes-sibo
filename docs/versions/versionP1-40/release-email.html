@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Release Notes - June 2026 (Version 40)</title>
+  </head>
+  <body style="margin:0; padding:0; font-family: Arial, sans-serif; color:#333;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+      <tr>
+        <td align="center">
+          <table width="600" border="0" cellspacing="0" cellpadding="0" style="margin:0 auto; text-align:left;">
+
+            <!-- HEADER -->
+            <tr>
+              <td style="padding: 20px;">
+                <h1 style="margin:0; font-size:24px; color:#111;">
+                  Release Notes - June 2026
+                  <span style="color:#4F5356; font-size:16px; line-height:1.6;">(Version 40)</span>
+                </h1>
+                <h3 style="color:#003746; font-size:16px; line-height:1.6; margin:16px 0 0 0;">Dear Sweett Team,</h3>
+                <p style="color:#4F5356; font-size:16px; line-height:1.6; margin:8px 0 0 0;">
+                  This latest version brings to life a brand new feature, expands our compliance capabilities in Barcelona, and takes another step forward in proactive lock health monitoring — on top of a solid set of fixes and improvements across the board. Here's what's new:
+                  <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                    <li>The <strong style="color:#003746;">Roster module is here</strong> — a fully integrated shift planning and leave management system built right into the Back Office, designed to replace scattered processes with one clear workflow for managers and employees alike.</li>
+                    <li><strong style="color:#003746;">Mossos reporting</strong> is now live for Barcelona properties, letting operations submit guest registration reports directly from SIBO and stay on top of local compliance requirements.</li>
+                    <li>Our <strong style="color:#003746;">Nuki BT disconnection detection</strong> closes another gap in lock health visibility — when a bridge loses contact with the keypad, the team is alerted automatically with a dashboard record, report, and task before any guest is impacted.</li>
+                    <li><strong style="color:#003746;">Online Check-In gets smarter</strong> with backend document validation that prevents duplicate uploads and protects OCI status from getting stuck during assisted check-in.</li>
+                    <li>The <strong style="color:#003746;">SIBO App Force Update</strong> mechanism gives us full control over minimum supported app versions, straight from the CMS.</li>
+                  </ul>
+                </p>
+              </td>
+            </tr>
+
+            <!-- HIGHLIGHT: Roster -->
+            <tr>
+              <td style="padding:12px 14px; background-color:#e8f4f7; border-left:4px solid #003746;">
+                <strong style="color:#003746; font-size:15px;">Roster — Employee Shift Management</strong><br/>
+                <span style="color:#4F5356; font-size:14px; line-height:1.5;">Managers now have a central place to plan shifts, manage contracts, handle leave, and track worked hours. Configure teams, leave types, holiday calendars, and shift templates in Settings. Plan weekly shifts with bulk assignment, rotating workflows, and contract conflict warnings. Employees can view their schedule and submit leave requests — all inside the Back Office.<br/><br/>This is also the foundation for smarter, automated task assignment — getting the right person to the right job based on who is on shift, where they are, and what they can do.</span>
+                <div style="margin:12px 0;">
+                  <a href="https://res.cloudinary.com/sweetinn/image/upload/v1782232469/Release%20Notes/P1.40/roster.jpg" target="_blank">
+                    <img src="https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto,w_487,h_280,c_fill/v1782232469/Release%20Notes/P1.40/roster.jpg" alt="Roster — Employee Shift Management" style="display:block; max-width:100%; height:auto; border-radius:8px;" />
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr><td style="height:8px;"></td></tr>
+
+            <!-- HIGHLIGHT: Mossos -->
+            <tr>
+              <td style="padding:12px 14px; background-color:#e8f4f7; border-left:4px solid #003746;">
+                <strong style="color:#003746; font-size:15px;">Mossos Report — Barcelona</strong><br/>
+                <span style="color:#4F5356; font-size:14px; line-height:1.5;">In Spain, the law requires collecting official ID details from <strong>every single guest</strong> staying at a property — including children — and reporting them to the local authorities. For Barcelona, this means submitting a formal guest registration report to the Mossos d'Esquadra, the Catalan police force.<br/><br/>Up until recently, this has been a fully manual process: operations had to gather the data, compile the report, and submit for every single stay. With this release, that process moves into SIBO. Teams can now generate and submit the required Mossos report directly from the system — no manual compilation, no switching between tools, and no risk of missing a submission.</span>
+              </td>
+            </tr>
+            <tr><td style="height:8px;"></td></tr>
+
+            <!-- HIGHLIGHT: Nuki BT Disconnections -->
+            <tr>
+              <td style="padding:12px 14px; background-color:#e8f4f7; border-left:4px solid #003746;">
+                <strong style="color:#003746; font-size:15px;">Nuki BT Disconnection Detection</strong><br/>
+                <span style="color:#4F5356; font-size:14px; line-height:1.5;">SIBO now detects when a Nuki smart lock loses its Bluetooth connection between the bridge and the keypad. When this happens, the issue is recorded on the IOT dashboard and a report and task are automatically created — giving the team time to investigate and resolve access issues before they affect guests.</span>
+                <div style="margin:12px 0;">
+                  <a href="https://res.cloudinary.com/sweetinn/image/upload/v1782232469/Release%20Notes/P1.40/Nuki.jpg" target="_blank">
+                    <img src="https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto,w_487,h_280,c_fill/v1782232469/Release%20Notes/P1.40/Nuki.jpg" alt="Nuki BT Disconnection Detection" style="display:block; max-width:100%; height:auto; border-radius:8px;" />
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr><td style="height:8px;"></td></tr>
+
+            <!-- WEBSITE & APP -->
+            <tr>
+              <td style="padding: 20px;">
+                <h2 style="color:#003746; margin-top:0;">Website &amp; App</h2>
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Online Check-In</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">Document Upload Validation</strong><br/>
+                    <em style="color:#003746;">Prevents invalid or duplicate document submissions from blocking check-in completion.</em><br/>
+                    The system now enforces two rules: the total number of uploaded documents cannot exceed the number of guests on the booking, and the same document cannot be submitted twice. This is especially useful when a guest and a back-office agent upload documents at the same time, which could previously leave the OCI status stuck as incomplete.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+
+            <!-- SIBO -->
+            <tr>
+              <td style="padding: 20px;">
+                <h2 style="color:#003746; margin-top:0;">SIBO</h2>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Employee Shift Management</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">Roster — Employee Shift Management</strong><br/>
+                    <em style="color:#003746;">Gives operations teams a single place to manage employee scheduling, contracts, leave, and worked hours.</em><br/>
+                    Managers can configure teams, contracts (fixed or flexible), leave types, holiday calendars, and shift templates. The weekly planner supports bulk shift assignment, rotating planning workflows, team and reportee filters, rest-day visibility, and contract conflict warnings. Employees can view their schedule, submit leave requests, and track their balance and request history from the My Shifts view.<br/><br/>
+                    And this is just the beginning. With shift schedules, skills, and locations now structured inside SIBO, the Roster lays the foundation for something bigger — <strong style="color:#003746;">intelligent auto-assignment of tasks</strong> to the right person, at the right time, based on who is on shift, where they are, and what they know how to do. That's coming next.
+                  </li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Compliance</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">Mossos Report — Barcelona</strong><br/>
+                    <em style="color:#003746;">Helps Barcelona properties meet local guest registration requirements without leaving SIBO.</em><br/>
+                    Barcelona properties are legally required to report guest ID details to the Mossos d'Esquadra for every stay — a process that was previously done manually, outside of SIBO. Operations can now generate and submit the report directly from the system, cutting out the manual steps and keeping compliance in one place.
+                  </li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Lock Management</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">Nuki BT Disconnection Detection</strong><br/>
+                    <em style="color:#003746;">Lets the team identify and act on Bluetooth connection issues between a Nuki bridge and its lock before guest access is affected.</em><br/>
+                    When a disconnection is detected, a record is created on the IOT locks dashboard and a report and task are opened automatically — following the same pattern as low-battery alerts. The feature also respects the per-provider autoLockHealthTasks setting to control whether monitoring is active for that account.
+                  </li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Mobile App</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">SIBO App — Force Update</strong><br/>
+                    <em style="color:#003746;">Ensures field staff are always running a supported version of the SIBO app.</em><br/>
+                    App version requirements are now managed through the CMS. When a new version is released and approved, the team updates the minimum required version in the CMS. Users running an older version are shown a prompt to update before continuing. On iOS the prompt links to the App Store; on Android it links to the latest build for manual install.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+
+            <!-- ENHANCEMENTS & BUG FIXES -->
+            <tr>
+              <td style="padding: 20px;">
+                <h2 style="color:#003746;">Enhancements &amp; Bug Fixes</h2>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px;">
+
+                  <!-- Enhancement -->
+                  <li><span style="font-size:12px; color:#FFF; background-color:#003746; padding:2px 6px; border-radius:4px;">Enhancement</span> <strong style="color:#003746;">Missing Booking Cleanup</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>A backend maintenance flow now safely finalizes cancelled "Missing Booking" OTA records, cleaning up booking logs, availability data, and booking status to prevent orphaned records from remaining in the system.</li>
+
+                  <!-- Bugs -->
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Nuki Bridge Offline Detection</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>When a Nuki bridge loses its cloud connection, the lock now correctly appears as offline on the IOT dashboard. Previously, the lock showed as healthy, entry code creation was attempted silently, and codes never reached the keypad with no warning shown to the team.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Unit Room Count Sync</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>When a unit is updated, scalar room-count fields such as inner bathrooms are now correctly synced to all linked properties. Previously, null values were silently skipped, causing mismatches between room amenities and property room count fields.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Expedia VCC Charge Fix</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>Expedia virtual card bookings now charge nights only, matching the VCC balance funded by Expedia. Previously, city tax was incorrectly added to the charge for Paris bookings, causing Stripe payment failures at check-in due to insufficient funds on the card.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Stay Extension Date Update</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>When a guest pays for a stay extension via the guest dashboard, the booking checkout date now updates correctly in the system. Previously, a partner sync error could leave the booking at the original checkout date despite a successful payment, causing digital key access to expire too early.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Paid LCO Upgrade Flow</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>When a guest with a pending free late check-out request asks for a later, paid check-out time, the bot now correctly offers the paid option. Previously, it repeated the free-request status reminder or escalated to a human agent instead of handling the paid flow automatically.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">CMS Appliance Tab Loading</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>The Appliances tab under Property Guides in the CMS for the Sweet Inn account now loads correctly instead of displaying a continuous loading spinner with no content.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">WhatsApp Login Spinner</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>The loading spinner during WhatsApp staff login now stops when the login attempt fails, and a clear error message is shown. Previously, the spinner continued indefinitely with no feedback and no way to retry without force-closing the app.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Tasks Filter — Cleaning Manager</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO App</span><br/>Cleaning managers can now filter tasks correctly in the SIBO app.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Duplicate Lock Battery Reports</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO App</span><br/>Multiple identical low-battery lock reports for the same lock and battery level are no longer created on the same day, reducing noise in the IOT dashboard and task queue.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Cleaner Access Permissions</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO App</span><br/>New cleaner users created via Cleaning Manager no longer incorrectly receive Cleaning Manager access. Previously, this granted field cleaners visibility into manager-level sections in SIBO, including scheduling and settings they should not see.</li>
+
+                </ul>
+              </td>
+            </tr>
+
+            <!-- FOOTER -->
+            <tr>
+              <td style="padding: 20px;">
+                <p style="color:#4F5356; font-size:16px; line-height:1.6; margin: 8px 0 0 0;">
+                  For technical support, contact <a href="mailto:techsupport@sweett.com" style="color:#003746;">Tech-Support</a>.<br/>
+                  A full history of all version release notes is available <a href="https://release-notes.sweetinn-app.net/release-notes-sibo" style="color:#003746; text-decoration:underline;" target="_blank">here</a>.<br/><br/>
+                </p>
+              </td>
+            </tr>
+
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

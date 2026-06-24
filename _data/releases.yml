@@ -1,4 +1,11 @@
 releases:
+  - version: "P1.40"
+    date: "2026-06-23"
+    display_date: "Jun 23, 2026"
+    url: "/docs/versions/versionP1-40/versionP1-40.html"
+    blurb: "The Roster module is live — a fully integrated shift planning and leave management system built into the Back Office."
+    legacy: false
+
   - version: "P1.38"
     date: "2026-06-07"
     display_date: "Jun 07, 2026"
