@@ -1,4 +1,11 @@
 releases:
+  - version: "P1.41"
+    date: "2026-07-07"
+    display_date: "Jul 07, 2026"
+    url: "/docs/versions/versionP1-41/versionP1-41.html"
+    blurb: "Maintenance dispatch is now automated — reports are matched to the right technician by skill, shift, and location, and tasks are created automatically."
+    legacy: false
+
   - version: "P1.40"
     date: "2026-06-23"
     display_date: "Jun 23, 2026"
