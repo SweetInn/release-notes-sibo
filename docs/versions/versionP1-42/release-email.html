@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Release Notes - July 2026 (Version 42)</title>
+  </head>
+  <body style="margin:0; padding:0; font-family: Arial, sans-serif; color:#333;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+      <tr>
+        <td align="center">
+          <table width="600" border="0" cellspacing="0" cellpadding="0" style="margin:0 auto; text-align:left;">
+
+            <!-- HISTORY BANNER -->
+            <tr>
+              <td style="padding: 16px 24px; background-color:#003746; text-align:center;">
+                <span style="color:#ffffff; font-size:15px; font-weight:bold;">Looking for previous releases?</span>
+                <span style="color:#cde8f0; font-size:15px;"> View the full release notes history </span>
+                <a href="https://release-notes.sweetinn-app.net/release-notes-sibo" style="color:#ffffff; text-decoration:underline; font-size:15px; font-weight:bold;" target="_blank">here</a><span style="color:#cde8f0; font-size:15px;">.</span>
+              </td>
+            </tr>
+
+            <!-- HEADER -->
+            <tr>
+              <td style="padding: 20px;">
+                <h1 style="margin:0; font-size:24px; color:#111;">
+                  Release Notes - July 2026
+                  <span style="color:#4F5356; font-size:16px; line-height:1.6;">(Version 42)</span>
+                </h1>
+                <h3 style="color:#003746; font-size:16px; line-height:1.6; margin:16px 0 0 0;">Dear Sweett Team,</h3>
+                <p style="color:#4F5356; font-size:16px; line-height:1.7; margin:12px 0 0 0;">
+                  This release is all about turning risk into opportunity. Our new <strong style="color:#003746;">Overbooking Management</strong> feature runs a cancellation risk calculation on specific bookings and, when the risk is high enough, safely opens those dates back up so you don't miss out on another guest.
+                </p>
+                <p style="color:#4F5356; font-size:16px; line-height:1.7; margin:12px 0 0 0;">
+                  We've also given cleaners and managers a proper home for those left-behind items with <strong style="color:#003746;">Lost &amp; Found</strong>, so nothing gets lost in a side chat again.
+                </p>
+                <p style="color:#4F5356; font-size:16px; line-height:1.7; margin:12px 0 0 0;">
+                  On top of that, <strong style="color:#003746;">sales phone numbers now show up right on the web headers</strong>, making it easier for guests to reach your team and driving higher conversion by turning a passive visit into a direct conversation.
+                </p>
+                <p style="color:#4F5356; font-size:16px; line-height:1.7; margin:12px 0 0 0;">
+                  And over in the Back Office you can <strong style="color:#003746;">view, set, and regenerate Nuki lock admin codes</strong> in just a couple of clicks. And as always, we've been busy behind the scenes tightening up stability and squashing bugs across messaging, mobile reports, and website booking.
+                </p>
+              </td>
+            </tr>
+
+            <!-- HIGHLIGHT CARD: Overbooking Management -->
+            <tr>
+              <td style="padding:12px 14px; background-color:#e8f4f7; border-left:4px solid #003746;">
+                <strong style="color:#003746; font-size:15px;">Overbooking Management (Cancellation Risk Based Availability)</strong><br/>
+                <span style="color:#4F5356; font-size:14px; line-height:1.5;">Meet Overbooking Management. SIBO now runs a cancellation risk calculation on specific bookings, and when the risk is high enough, it quietly opens those dates back up so another guest can grab them, instead of waiting for a cancellation that might never actually happen. If a stronger signal confirms the stay, like a guest message, the dates close right away. And if the risk score simply drops over time, the chances of the original booking sticking around go up, which may call for relocating whichever booking was added in the meantime. If a real conflict does pop up, there's a dedicated dashboard with everything needed to sort it out fast. Built in collaboration with our BI team, whose cancellation risk model powers this feature.</span>
+                <div style="margin:12px 0;">
+                  <a href="https://res.cloudinary.com/sweetinn/image/upload/v1784641426/Release%20Notes/P1.42/doubleBooking.jpg" target="_blank">
+                    <img src="https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto,w_487,c_fill,h_300,g_auto/v1784641426/Release%20Notes/P1.42/doubleBooking.jpg" alt="Overbooking Management (Cancellation Risk Based Availability)" style="display:block; max-width:100%; height:auto; border-radius:8px;" />
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr><td style="height:8px;"></td></tr>
+
+            <!-- HIGHLIGHT CARD: Phone numbers on web headers -->
+            <tr>
+              <td style="padding:12px 14px; background-color:#e8f4f7; border-left:4px solid #003746;">
+                <strong style="color:#003746; font-size:15px;">Direct Sales Phone Numbers on Web Headers</strong><br/>
+                <span style="color:#4F5356; font-size:14px; line-height:1.5;">Your sales number is now front and center on the web header, and it adapts to the guest's locale so each region sees the right number to call. One tap, one call, one less guest lost to a search engine. It is a small change on the page with a big impact on conversion.</span>
+                <div style="margin:12px 0;">
+                  <a href="https://res.cloudinary.com/sweetinn/image/upload/v1784641425/Release%20Notes/P1.42/directSales.jpg" target="_blank">
+                    <img src="https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto,w_487,c_fit/v1784641425/Release%20Notes/P1.42/directSales.jpg" alt="Direct Sales Phone Numbers on Web Headers" style="display:block; max-width:100%; height:auto; border-radius:8px;" />
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr><td style="height:8px;"></td></tr>
+
+            <!-- HIGHLIGHT CARD: Lost & Found -->
+            <tr>
+              <td style="padding:12px 14px; background-color:#e8f4f7; border-left:4px solid #003746;">
+                <strong style="color:#003746; font-size:15px;">Lost &amp; Found</strong><br/>
+                <span style="color:#4F5356; font-size:14px; line-height:1.5;">Say hello to Lost &amp; Found. Cleaners snap a photo and jot a quick note the moment they find something, right from their phone. From there it is tracked start to finish: stored, returned, or disposed, with support able to see the full picture in the Unified Inbox whenever a guest asks. No more items disappearing into side chats.</span>
+                <div style="margin:12px 0;">
+                  <a href="https://res.cloudinary.com/sweetinn/image/upload/v1784646160/Release%20Notes/P1.42/lostAndFound.jpg" target="_blank">
+                    <img src="https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto,w_487,c_fill,h_300,g_auto/v1784646160/Release%20Notes/P1.42/lostAndFound.jpg" alt="Lost &amp; Found" style="display:block; max-width:100%; height:auto; border-radius:8px;" />
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr><td style="height:8px;"></td></tr>
+
+            <!-- WEBSITE & APP -->
+            <tr>
+              <td style="padding: 20px;">
+                <h2 style="color:#003746; margin-top:0;">Website &amp; App</h2>
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Consistency and Reliability</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">Website Speed Improvement (Phase 2)</strong><br/>
+                    <em style="color:#003746;">Faster pages help guests browse and book without frustrating delays.</em><br/>
+                    The second phase of our ongoing work to <strong style="color:#003746;">make the booking website load and respond faster</strong> across key pages.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+
+            <!-- SIBO -->
+            <tr>
+              <td style="padding: 20px;">
+                <h2 style="color:#003746; margin-top:0;">SIBO</h2>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Occupancy &amp; Revenue</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">Overbooking Management (Cancellation Risk Based Availability)</strong><br/>
+                    <em style="color:#003746;">Turn likely cancellations into extra bookings, without losing sight of the original guest.</em><br/>
+                    SIBO runs a cancellation risk calculation on specific bookings, and when a booking's risk is high enough, it can open its dates so <strong style="color:#003746;">another guest can book the same stay</strong>. The original booking is never cancelled, it stays live and is simply hidden from the calendar so we don't double count it. If a stronger signal confirms the stay, like a guest message, the dates close immediately to avoid a conflict. And if the risk score simply drops over time, the chances of the original booking sticking around go up, which may call for relocating whichever booking was added in the meantime. When a conflict does happen, there's a dashboard with everything needed to relocate, upgrade, or refund the affected guest, plus a notification so nothing is missed.
+                    <br/><strong style="color:#003746; font-size:14px; font-style:italic;">Built in collaboration with our BI team, who developed the cancellation risk model behind this feature.</strong>
+                  </li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Field Operations</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">Lost &amp; Found</strong><br/>
+                    <em style="color:#003746;">One clear process for handling items guests leave behind.</em><br/>
+                    Cleaners can report a found item from their phone with a photo and note. The item is linked to the property and booking automatically when possible. Managers get a single list of found items with filters, storage location, and guest contact, and can <strong style="color:#003746;">track each item through to return or disposal</strong>. Support can also see found items for a booking directly in the Unified Inbox.
+                  </li>
+                  <li style="margin-top:8px;">
+                    <strong style="color:#003746;">Create Report for Non-Cleaner Staff</strong><br/>
+                    <em style="color:#003746;">Let every field team member report an issue, not just cleaners.</em><br/>
+                    Non-cleaner field staff, such as maintenance technicians, can now <strong style="color:#003746;">create a report directly from the SIBO mobile app</strong> using the same simple flow cleaners already have: a description and photo, no cleaning task required.
+                  </li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Direct Sales &amp; Services</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">Phone Numbers on Web Headers</strong><br/>
+                    <em style="color:#003746;">Make it easier for guests to reach our sales team directly.</em><br/>
+                    Direct sales phone numbers are now displayed on the web header, adapted per locale so guests in each region see the right number, <strong style="color:#003746;">giving guests a quick way to call our team</strong>.
+                  </li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Security</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">Nuki Lock Admin Code Management</strong><br/>
+                    <em style="color:#003746;">Give Ops the same level of control over Nuki locks as we already have for Salto locks.</em><br/>
+                    From the property's Digital Keys panel, Ops can now <strong style="color:#003746;">view, set, or regenerate the admin code for a Nuki lock in a single action</strong>. The admin code is marked "Do not share" and is only ever visible internally, never to guests. Repeated change requests on the same lock are held while a previous change is still applying, so Ops always know the current state.
+                  </li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Stability</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">More Resilient Lock Syncing</strong><br/>
+                    <em style="color:#003746;">Keep lock syncing running smoothly even when one building has a problem.</em><br/>
+                    If access to one building is lost, it's automatically removed so it doesn't get stuck or block syncing. If a single building fails to sync, <strong style="color:#003746;">the rest continue as normal</strong>, and we get a clear reason for whichever building didn't sync.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+
+            <!-- ENHANCEMENTS & BUG FIXES -->
+            <tr>
+              <td style="padding: 20px;">
+                <h2 style="color:#003746;">Enhancements &amp; Bug Fixes</h2>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px;">
+                  <li><span style="font-size:12px; color:#FFF; background-color:#003746; padding:2px 6px; border-radius:4px;">Enhancement</span> <strong style="color:#003746;">Failed Payment Logs Visibility</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>Failed booking payment logs (cases where a card was charged but the booking wasn't created) are now visible on the Missing Bookings page, with manual and automatic refresh, to help investigate and resolve them faster.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Correct Message Now Sent to Guests</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>Fixed a rare case where sending a message in a conversation could deliver an old, unrelated draft instead of the message the agent actually typed.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Property Now Displayed on Reports From Cleaners</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>Reports created from a cleaning task in the SIBO mobile app now correctly show the related property and booking on the report details page.</li>
+
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Guest Count Now Capped to Room Limit</strong><span style="font-size:12px; color:#FFF; background-color:#007e9d; padding:2px 6px; border-radius:4px; margin-left:6px;">Website/App</span><br/>Fixed a website bug where guests could select more people than a room's maximum capacity when editing trip details, which let bookings go through with too many guests.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <!-- FOOTER -->
+            <tr>
+              <td style="padding: 20px;">
+                <p style="color:#4F5356; font-size:16px; line-height:1.6; margin: 8px 0 0 0;">
+                  For technical support, contact <a href="mailto:techsupport@sweett.com" style="color:#003746;">Tech-Support</a>.<br/><br/>
+                </p>
+              </td>
+            </tr>
+
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

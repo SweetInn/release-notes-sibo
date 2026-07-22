@@ -1,4 +1,11 @@
 releases:
+  - version: "P1.42"
+    date: "2026-07-21"
+    display_date: "Jul 21, 2026"
+    url: "/docs/versions/versionP1-42/versionP1-42.html"
+    blurb: "Overbooking Management uses cancellation risk to safely reopen dates for another guest, plus Lost & Found for tracking items left behind."
+    legacy: false
+
   - version: "P1.41"
     date: "2026-07-07"
     display_date: "Jul 07, 2026"
