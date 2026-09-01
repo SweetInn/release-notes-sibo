@@ -1,4 +1,11 @@
 releases:
+  - version: "P1.45"
+    date: "2026-09-01"
+    display_date: "Sep 01, 2026"
+    url: "/docs/versions/versionP1-45/versionP1-45.html"
+    blurb: "Agent Area turns travel agents into a direct booking channel with affiliate-branded links."
+    legacy: false
+
   - version: "P1.43"
     date: "2026-08-20"
     display_date: "Aug 20, 2026"
