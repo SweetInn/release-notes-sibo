@@ -1,4 +1,11 @@
 releases:
+  - version: "P1.47"
+    date: "2026-10-01"
+    display_date: "Oct 01, 2026"
+    url: "/docs/versions/versionP1-47/versionP1-47.html"
+    blurb: "Multi-booking quotes let guests book several apartments together in one payment."
+    legacy: false
+
   - version: "P1.45"
     date: "2026-09-01"
     display_date: "Sep 01, 2026"
