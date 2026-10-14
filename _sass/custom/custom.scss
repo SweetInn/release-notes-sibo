@@ -452,6 +452,16 @@ $v-break-hero: 600px;
     max-width: 100%;
 }
 
+.version-body img.phone-screenshot {
+    display: block;
+    width: 180px !important;
+    max-width: 180px !important;
+    height: auto !important;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.2rem;
+}
+
 // Divider line before "View original release email"
 .version-body hr {
     border: none;

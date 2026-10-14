@@ -27,7 +27,9 @@ The guest picked the time slot. The technician arrives, and nobody opens the doo
 ![Technician Coverage](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/v1791904751/Release%20Notes/P1.50/techCoverage.png)
 
 **Guest Not Home**
-![Guest Not Home](https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto/v1791906661/Release%20Notes/P1.50/guestNotHome.png)
+<a href="https://res.cloudinary.com/sweetinn/image/upload/v1791906661/Release%20Notes/P1.50/guestNotHome.png" target="_blank">
+<img class="phone-screenshot" src="https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto,w_180,c_limit/v1791906661/Release%20Notes/P1.50/guestNotHome.png" alt="Guest Not Home" width="180" style="width:180px;max-width:180px;height:auto;">
+</a>
 
 ### What's New?
 
