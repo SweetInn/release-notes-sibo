@@ -1,4 +1,11 @@
 releases:
+  - version: "P1.50"
+    date: "2026-10-13"
+    display_date: "Oct 13, 2026"
+    url: "/docs/versions/versionP1-50/versionP1-50.html"
+    blurb: "City search results are now ordered to better match each guest's needs."
+    legacy: false
+
   - version: "P1.47"
     date: "2026-10-01"
     display_date: "Oct 01, 2026"

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Release Notes - October 2026 (Version 50)</title>
+  </head>
+  <body style="margin:0; padding:0; font-family: Arial, sans-serif; color:#333;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+      <tr>
+        <td align="center">
+          <table width="600" border="0" cellspacing="0" cellpadding="0" style="margin:0 auto; text-align:left;">
+
+            <!-- HISTORY BANNER -->
+            <tr>
+              <td style="padding: 16px 24px; background-color:#003746; text-align:center;">
+                <span style="color:#ffffff; font-size:15px; font-weight:bold;">Looking for previous releases?</span>
+                <span style="color:#cde8f0; font-size:15px;"> View the full release notes history </span>
+                <a href="https://release-notes.sweetinn-app.net/release-notes-sibo" style="color:#ffffff; text-decoration:underline; font-size:15px; font-weight:bold;" target="_blank">here</a><span style="color:#cde8f0; font-size:15px;">.</span>
+              </td>
+            </tr>
+
+            <!-- HEADER -->
+            <tr>
+              <td style="padding: 20px;">
+                <h1 style="margin:0; font-size:24px; color:#111;">
+                  Release Notes - October 2026
+                  <span style="color:#4F5356; font-size:16px; line-height:1.6;">(Version 50)</span>
+                </h1>
+                <h3 style="color:#003746; font-size:16px; line-height:1.6; margin:16px 0 0 0;">Dear Sweett Team,</h3>
+                <p style="color:#4F5356; font-size:16px; line-height:1.6; margin:8px 0 0 0;">This release puts the apartment that fits the search first on the city page, lets operations set who can be sent where, and asks guests to reschedule when they are not home for a visit.</p>
+                <p style="color:#4F5356; font-size:16px; line-height:1.6; margin:12px 0 0 0;"><strong style="color:#003746;">City page ranking</strong> puts the right apartment in front of the right guest. The cards stay the same. The order changes with the search: two guests see a place that sleeps two before a place that sleeps six. Switch a city on, and Recommended leads with the best match. Leave it off, and guests keep today's list.</p>
+                <p style="color:#4F5356; font-size:16px; line-height:1.6; margin:12px 0 0 0;"><strong style="color:#003746;">Technician coverage</strong> shows who can reach every building, hotel, and apartment in the city, and where a skill runs out. Assign the right person before a task is left waiting.</p>
+                <p style="color:#4F5356; font-size:16px; line-height:1.6; margin:12px 0 0 0;">The guest picked the time slot. The technician arrives, and nobody opens the door. One tap on <strong style="color:#003746;">Guest not home</strong> now messages the guest to choose a new time. The visit is rebooked without anyone writing that message by hand.</p>
+              </td>
+            </tr>
+
+            <!-- HIGHLIGHT CARD: City page ranking -->
+            <tr>
+              <td style="padding:12px 14px; background-color:#e8f4f7; border-left:4px solid #003746;">
+                <strong style="color:#003746; font-size:15px;">Smarter city-page ranking</strong><br/>
+                <span style="color:#4F5356; font-size:14px; line-height:1.5;">City search results are now ordered dynamically to better match each guest's needs, considering factors such as party size, bedrooms and listing demand while keeping top results varied and relevant. <strong style="color:#003746;">The goal is to help guests find suitable stays faster and improve conversion for direct website bookings.</strong> Teams can manage ranking rules by city and promote selected or newly launched listings.</span>
+                <div style="margin:12px 0;">
+                  <!-- Image: City Page Ranking -->
+                  <a href="https://res.cloudinary.com/sweetinn/image/upload/v1791904751/Release%20Notes/P1.50/cityPageRankings.png" target="_blank">
+                    <img src="https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto,w_487,h_320,c_fill,g_north/v1791904751/Release%20Notes/P1.50/cityPageRankings.png" alt="City Page Ranking" style="display:block; max-width:100%; height:auto; border-radius:8px;" />
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr><td style="height:8px;"></td></tr>
+
+            <!-- HIGHLIGHT CARD: Technician coverage -->
+            <tr>
+              <td style="padding:12px 14px; background-color:#e8f4f7; border-left:4px solid #003746;">
+                <strong style="color:#003746; font-size:15px;">Technician Coverage</strong><br/>
+                <span style="color:#4F5356; font-size:14px; line-height:1.5;">Maintenance technicians can now be tied to the buildings and properties they actually work in. With no assignment, they can still be sent anywhere in the city. Assigning locations narrows them to those places, and that rule is applied before zones. Two views answer who can be sent to this address, and where this technician can go. <strong style="color:#003746;">A coverage gap is visible before a task fails to find anyone.</strong></span>
+                <div style="margin:12px 0;">
+                  <!-- Image: Technician Coverage -->
+                  <a href="https://res.cloudinary.com/sweetinn/image/upload/v1791904751/Release%20Notes/P1.50/techCoverage.png" target="_blank">
+                    <img src="https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto,w_487,h_320,c_limit/v1791904751/Release%20Notes/P1.50/techCoverage.png" alt="Technician Coverage" style="display:block; max-width:100%; height:auto; border-radius:8px;" />
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr><td style="height:8px;"></td></tr>
+
+            <!-- HIGHLIGHT CARD: Guest not home -->
+            <tr>
+              <td style="padding:12px 14px; background-color:#e8f4f7; border-left:4px solid #003746;">
+                <strong style="color:#003746; font-size:15px;">Guest Not Home</strong><br/>
+                <span style="color:#4F5356; font-size:14px; line-height:1.5;">The guest chooses a time slot for the technician to come. If nobody answers, the technician selects Guest not home. SIBO closes the task, reopens the report, and adds a comment that the visit needs to be rescheduled manually. The guest receives a WhatsApp message asking them to choose a new time. <strong style="color:#003746;">The missed visit is returned for rescheduling, and the guest is asked for a new time.</strong></span>
+                <div style="margin:12px 0;">
+                  <!-- Image: Guest Not Home -->
+                  <a href="https://res.cloudinary.com/sweetinn/image/upload/v1791906661/Release%20Notes/P1.50/guestNotHome.png" target="_blank">
+                    <img src="https://res.cloudinary.com/sweetinn/image/upload/q_auto,f_auto,w_240,c_limit/v1791906661/Release%20Notes/P1.50/guestNotHome.png" alt="Guest Not Home" style="display:block; width:240px; max-width:100%; height:auto; border-radius:8px;" />
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr><td style="height:8px;"></td></tr>
+
+            <!-- WEBSITE & APP -->
+            <tr>
+              <td style="padding: 20px;">
+                <h2 style="color:#003746; margin-top:0;">Website &amp; App</h2>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Online Check-In</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">Late Arrival</strong><br/>
+                    <em style="color:#003746;">Guests arriving after midnight can say so, and the arrival is saved on the day they actually arrive.</em><br/>
+                    Late arrivals now have two clear options: <strong style="color:#003746;">11 pm - midnight</strong> on the check-in day, or <strong style="color:#003746;">after midnight</strong> on the next day, with an approximate hour up to early morning. Paid early check-in and check-out stay the same.
+                  </li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Guest App</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">Luggage Storage</strong><br/>
+                    <em style="color:#003746;">Every guest sees where to leave their bags, from arrival through the stay.</em><br/>
+                    With a Sweett Lobby, Arrival Instructions show the Lobby card, then Stasher. With no lobby, the section shows only Stasher. The Home screen keeps a tile before and after check-in: <strong style="color:#003746;">Luggage Storage &amp; Lobby</strong>, or <strong style="color:#003746;">Luggage Storage</strong> when there is no lobby. Tapping it opens the same cards. The Lobby card still opens the Sweett Lobby. Stasher opens in the browser. If neither is available, the section and the tile stay hidden.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+
+            <!-- SIBO -->
+            <tr>
+              <td style="padding: 20px;">
+                <h2 style="color:#003746; margin-top:0;">SIBO</h2>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">City Page Ranking</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <em style="color:#003746;">Help guests find a suitable stay faster, and improve conversion on direct website bookings.</em><br/>
+                    City search results are now ordered for the search the guest just made. Party size, bedrooms, and how fast a listing is booking all count. Two guests see a place that sleeps two above a place that sleeps six. A one-bedroom request leads with a one-bedroom. The top results stay varied, so they are not all hotels, all the same size, or several cards from the same building. <strong style="color:#003746;">Price</strong> sort is unchanged, and the guest still sees the same cards.<br/><br/>
+                    Teams manage the rules by city in Settings. Each account saves <strong style="color:#003746;">score presets</strong> that add up to <strong style="color:#003746;">100%</strong>, and turns each city <strong style="color:#003746;">on or off</strong>. Off keeps today's list. On uses one preset. A selected building or apartment, or a newly launched listing, can be promoted into <strong style="color:#003746;">third position</strong> for a limited time.
+                  </li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Technician Coverage</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">Who Can Be Sent Where</strong><br/>
+                    <em style="color:#003746;">Technician coverage by location.</em><br/>
+                    Maintenance technicians can now be <strong style="color:#003746;">tied to the buildings and properties they actually work in</strong>. A technician with no assignment can be sent anywhere in the city. Assigning one or more locations narrows them to those locations, and automatic task assignment applies that before zones, so it acts as a <strong style="color:#003746;">firm rule rather than a preference</strong>. Assigning a building, hotel, or virtual building covers every property inside it. Two views answer the two questions ops asks: <strong style="color:#003746;">who can be sent to this address</strong>, and <strong style="color:#003746;">where can this technician go</strong>. A banner flags any skill whose only holders have been tied to specific locations, so a <strong style="color:#003746;">coverage gap is visible before a task fails to find anyone</strong>.<br/><br/>
+                    What ops can do now, in plain terms: <strong style="color:#003746;">keep a technician on the buildings they know</strong>; see at a glance who is eligible at any address; check where any one technician can be sent; <strong style="color:#003746;">spot a skill that has been accidentally confined to one part of the city</strong>; and undo it, since removing the last location puts a technician back to working anywhere.
+                  </li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Guest Visits</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">Guest Not Home</strong><br/>
+                    <em style="color:#003746;">Close the missed visit, return it for rescheduling, and ask the guest to choose a new time.</em><br/>
+                    Some maintenance visits need the guest to be in the apartment, so the guest chooses a time slot for the technician to come. If nobody answers during that time slot, the technician selects <strong style="color:#003746;">Guest not home</strong>.<br/><br/>
+                    SIBO then <strong style="color:#003746;">closes the task</strong>, <strong style="color:#003746;">reopens the report</strong>, and adds a comment saying that the visit needs to be rescheduled manually. The guest receives a <strong style="color:#003746;">WhatsApp message</strong> explaining that they were not home during the agreed time slot and asking them to choose a new time. Visits that do not need the guest to be present are not affected.
+                  </li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Auto Tasks</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">Automation Settings</strong><br/>
+                    <em style="color:#003746;">Decide how far the search goes, who can be proposed, and how long the task lasts, right where the work happens.</em><br/>
+                    Cities that have not been changed keep today's behaviour. The search area is one choice: <strong style="color:#003746;">assigned properties only</strong>, the property's <strong style="color:#003746;">zone</strong>, or the <strong style="color:#003746;">whole city</strong>. In HITM (Human in the middle), the city names which technicians may receive a proposal. Task length is a small set of named options for the city. Open these settings from <strong style="color:#003746;">Reports</strong> or from the existing city settings. When more than one account city is available, the screen shows which one is being edited. A change in one place shows in the other.
+                  </li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Smart Locks</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">Reconnect the Bridge</strong><br/>
+                    <em style="color:#003746;">The cleaner already in the apartment reconnects the bridge, before a maintenance visit is raised.</em><br/>
+                    If a cleaner is on site when a Nuki bridge goes offline, they get a <strong style="color:#003746;">push notification</strong> and can mark the bridge <strong style="color:#003746;">reconnected</strong> on the cleaning task. If nobody is there, or the bridge stays offline, the maintenance report and task are still created.
+                  </li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Operations Dashboard</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">One-Night No-Show</strong><br/>
+                    <em style="color:#003746;">Catch a one-night guest who never arrived, and have the apartment clean and free the same morning.</em><br/>
+                    On checkout morning, a one-night booking with no check-in gets a <strong style="color:#003746;">No-show watch</strong> alert, tagged <strong style="color:#003746;">One night booking</strong>, and listed first. <strong style="color:#003746;">The guest checked-in</strong> only removes the alert. <strong style="color:#003746;">Mark as no-show</strong> asks for confirmation, then sets the booking to No-Show, marks the apartment clean, and clears the alert.
+                  </li>
+                </ul>
+
+                <h4 style="color:#003746; margin-bottom:5px; text-decoration: underline;">Affiliate Program</h4>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px; margin-top:8px;">
+                  <li>
+                    <strong style="color:#003746;">Membership Price</strong><br/>
+                    <em style="color:#003746;">The shared link shows the membership price plus the markup, and the guest is never discounted twice.</em><br/>
+                    When the stay shows the membership option, the price before markup is the <strong style="color:#003746;">membership price</strong>. The agent's markup is added on top, up to their maximum. The guest is not given the membership discount a second time. The total the agent sees matches the shared link. Stays without the membership option are unchanged.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+
+            <!-- ENHANCEMENTS & BUG FIXES -->
+            <tr>
+              <td style="padding: 20px;">
+                <h2 style="color:#003746;">Enhancements &amp; Bug Fixes</h2>
+                <ul style="color:#4F5356; line-height:1.6; padding-left:20px;">
+                  <li><span style="font-size:12px; color:#FFF; background-color:#003746; padding:2px 6px; border-radius:4px;">Enhancement</span> <strong style="color:#003746;">Israel Group Checkout</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>Group bookings are now possible on Israel cities, on the website and from a SIBO multi quote. The guest pays once, and every apartment in the group is confirmed.</li>
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Successful Payment Shown as Failed</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>Fixed an issue where a successful card payment was later shown as failed after an earlier card on the same payment was declined. The stay stayed confirmed, but the amount looked unpaid and Charge Now was still offered. The successful payment now stays successful.</li>
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Missing Lock Code Alert</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>Fixed an issue where a missing door code was not flagged on the New Dashboard when another lock on the same apartment, such as a static gate code, was already saved. Each lock is now checked on its own, so a guest is not left without a working code.</li>
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Auto Tasks on Foreign Currency</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>Fixed an issue where check-in, cleaning, and breakfast tasks were not created when the booking currency differed from the city currency. Those tasks are now created as usual.</li>
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Report on the Right Account</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>Fixed an issue where filing a report in the SIBO App could save it under another account in the same city. The report, and any task created from it, now stay on the account that manages the apartment.</li>
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Task Assignees Across Accounts</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>Fixed an issue where a task could only be assigned to people whose main account matched the franchise account. People with access to that city can now be assigned, including on Sweett and La Quintinie.</li>
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Check-In Reminder at Night</strong><span style="font-size:12px; color:#FFF; background-color:#007e9d; padding:2px 6px; border-radius:4px; margin-left:6px;">Website/App</span><br/>Fixed an issue where a same-day check-in reminder was sent late at night and opened with "Good morning!". A reminder whose morning window has already passed is no longer sent, and the greeting matches the local time of day.</li>
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Early Arrival Link</strong><span style="font-size:12px; color:#FFF; background-color:#007e9d; padding:2px 6px; border-radius:4px; margin-left:6px;">Website/App</span><br/>Fixed an issue where "Arriving before 2 PM?" stayed visible on check-in day after that time had passed. The link is hidden once that time has passed. The same rule applies to the late check-out link.</li>
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">iPhone Booking Back</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>Fixed an issue on iPhone where opening a booking from Multi Calendar or Reports left no way back, and tapping the menu again stayed on that booking. There is now a way back to the calendar or the reports list, with the previous filters kept.</li>
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Building and Common Area</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>Fixed an issue where a maintenance task for a building and a common area showed a blank location in the SIBO App. The task card and the task details now show the building and the common area, as Back Office already does.</li>
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Bookings Date Filter</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>Fixed an issue where the Check In date on Bookings moved back a day for people whose computer time zone is behind UTC. The selected day now stays the day that was clicked.</li>
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Hotel Guest Count</strong><span style="font-size:12px; color:#FFF; background-color:#007e9d; padding:2px 6px; border-radius:4px; margin-left:6px;">Website/App</span><br/>Fixed an issue on hotel pages where the guest count opened misaligned and cut off when dates were still empty. The guest count now lines up with the search bar, and Adults, Children, and Infants are fully visible.</li>
+                  <li style="margin-top:8px;"><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px;">Bug Fix</span> <strong style="color:#003746;">Active Agencies</strong><span style="font-size:12px; color:#FFF; background-color:#000; padding:2px 6px; border-radius:4px; margin-left:6px;">SIBO</span><br/>Fixed an issue where inactive agencies filled the agencies list, so some active agencies were missing. The list now returns active agencies.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <!-- FOOTER -->
+            <tr>
+              <td style="padding: 20px;">
+                <p style="color:#4F5356; font-size:16px; line-height:1.6; margin: 8px 0 0 0;">
+                  For technical support, contact <a href="mailto:techsupport@sweett.com" style="color:#003746;">Tech-Support</a>.<br/><br/>
+                </p>
+              </td>
+            </tr>
+
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
