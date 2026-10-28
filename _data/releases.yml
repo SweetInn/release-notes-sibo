@@ -1,4 +1,11 @@
 releases:
+  - version: "P1.55"
+    date: "2026-10-25"
+    display_date: "Oct 25, 2026"
+    url: "/docs/versions/versionP1-55/versionP1-55.html"
+    blurb: "The AI Cleaning Supervisor inspects a cleaning from the photos before it is done."
+    legacy: false
+
   - version: "P1.54"
     date: "2026-10-15"
     display_date: "Oct 15, 2026"
