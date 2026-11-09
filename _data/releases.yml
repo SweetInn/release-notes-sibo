@@ -1,4 +1,11 @@
 releases:
+  - version: "P1.60"
+    date: "2026-11-08"
+    display_date: "Nov 08, 2026"
+    url: "/docs/versions/versionP1-60/versionP1-60.html"
+    blurb: "Guests get a partner's booking link for arrival and departure in their app journey."
+    legacy: false
+
   - version: "P1.55"
     date: "2026-10-25"
     display_date: "Oct 25, 2026"
